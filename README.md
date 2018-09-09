@@ -39,8 +39,6 @@ After installing XAMPP (or all of the above by any other mean), start **Apache**
 
 <img alt = "XAMPP - Start Apache (The Web Server)" src = "img/xampp_start_apache_server.png">
 
-> **Caution!** Programs such as Skype can interfere with the startup of the web server, close any suspected program and try again if the web server refuses to start.
-
 > **Note**: The **web server** must be running for you to access your *unpublished* website. If you reboot your PC, you must open XAMPP and start it again.
 
 ### Production Environment
