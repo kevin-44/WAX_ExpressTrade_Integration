@@ -51,4 +51,4 @@ Regardless of the company you decide to rent your VPS from, you must get it onli
 
 <img alt = "DigitalOcean - Create Droplet" src = "img/digitalocean_create_droplet.png">
 
-> **Note**: Although hosting your website on a Windows server is possible, it isn't recommended for beginners - many network adjustments have to be applied to prevent attacks by third parties!
+> **Note**: Hosting a website on a Windows server is possible; however, it isn't recommended for beginners - many network adjustments must be applied to prevent attacks by third parties!
