@@ -37,7 +37,7 @@ A web server and PHP can be installed by many different means, although [XAMPP](
 
 After installing XAMPP (or all of the above by any other mean), start **Apache** (the web server):
 
-<img alt = "XAMPP - Start Apache (The Web Server)" src = "img/xampp_start_apache_and_mysql_server.png">
+<img alt = "XAMPP - Start Apache (The Web Server)" src = "img/xampp_start_apache_server.png">
 
 > **Caution!** Programs such as Skype can interfere with the startup of the web server, close any suspected program and try again if the web server refuses to start.
 
