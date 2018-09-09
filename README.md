@@ -21,3 +21,6 @@ Before anything, you will need to install a **web server**, a **MySQL server** a
 A web server, a MySQL server and PHP can be installed by many different means, although [XAMPP](https://www.apachefriends.org) is an all-in-one package that's incredibly easy to install and use; hence, it's a highly recommended option and you should definitely consider using it!
 
 After installing XAMPP (or all of the above by any other mean), start **Apache** (the web server) and the **MySQL server**:
+<p align = "center">
+	<img alt = "XAMPP - Start Apache and MySQL Server" src = "img/xampp_start_apache_and_mysql_server.png">
+</p>
