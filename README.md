@@ -42,3 +42,5 @@ After installing XAMPP (or the above by any other mean), start **Apache** (the w
 > **Note**: The **web server** must be running for you to access your *unpublished* website. If you reboot your PC, you must open XAMPP and start it again.
 
 ### Production Environment
+
+Hosting your website implies that you rent a **VPS** (*Virtual Private Server*) from your company of choice.
