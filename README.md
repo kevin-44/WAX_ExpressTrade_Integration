@@ -32,6 +32,6 @@ After installing XAMPP (or all of the above by any other mean), start **Apache**
 
 > **Caution!** Programs such as Skype can interfere with the startup of certain services, close any suspected program and try again if any service refuses to start.
 
-> **Note**: **Apache** and the **MySQL server** must be running for you to access your *unpublished* website. If you reboot your PC, you must open XAMPP and start both again.
+> **Note**: The **web server** and the **MySQL server** must be running for you to access your *unpublished* website. If you reboot your PC, you must open XAMPP and start both again.
 
 ### Production Environment
