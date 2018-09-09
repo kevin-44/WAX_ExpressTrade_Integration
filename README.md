@@ -1,3 +1,3 @@
-# WAX ExpressTrade Integration
+# WAX ExpressTrade Integration - Node.js or PHP
 
 WIP
