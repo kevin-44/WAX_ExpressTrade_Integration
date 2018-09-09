@@ -4,6 +4,8 @@
 
 In this tutorial, you will learn how to integrate WAX ExpressTrade into your website - no experience needed. Get started by clicking on [Node.js](#nodejs) or [PHP](#php) :)
 
+*Table of Contents*
+
 # Node.js
 
 # PHP
