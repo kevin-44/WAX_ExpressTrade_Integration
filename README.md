@@ -16,4 +16,4 @@ In this tutorial, you will learn how to integrate WAX ExpressTrade into your web
 
 ## Beginners
 
-Before anything, **Apache** and a **MySQL server** is required. If you already know how to install both, skip to the [next step](#beginners).
+Before anything, you will need to install **Apache** and a **MySQL server**. If you already know how to do this, skip to the [next step](#beginners).
