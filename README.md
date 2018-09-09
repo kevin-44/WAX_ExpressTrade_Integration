@@ -47,4 +47,4 @@ Hosting your website implies that you rent a **VPS** (*Virtual Private Server*) 
 
 #### Order/Create Your VPS
 
-Regardless of the company you're renting your VPS from, you must get it online with your **OS** (*Operating System*) of choice installed - **Ubuntu** is recommended for beginners!
+Regardless of the company you decide to rent your VPS from, you must get it online with your **OS** (*Operating System*) of choice installed - **Ubuntu** is recommended for beginners!
