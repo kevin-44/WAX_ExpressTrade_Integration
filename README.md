@@ -24,4 +24,4 @@ After installing XAMPP (or all of the above by any other mean), start **Apache**
 
 <img alt = "XAMPP - Start Apache and MySQL Server" src = "img/xampp_start_apache_and_mysql_server.png">
 
-> **Note**: **Apache** and the **MySQL server** has to be running for you to access your unpublished website.
+> **Note**: **Apache** and the **MySQL server** has to be running for you to access your *unpublished* website. If you reboot your PC, you must open XAMPP and start both again.
