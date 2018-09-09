@@ -43,4 +43,4 @@ After installing XAMPP (or the above by any other mean), start **Apache** (the w
 
 ### Production Environment
 
-Hosting your website implies that you rent a **VPS** (*Virtual Private Server*) from a company of choice. There are many companies you can rent a VPS from, although some may require for you to submit a whitelist application beforehand (such as OVH). If you're looking for a decent VPS that's also quick to set up, [DigitalOcean](https://www.digitalocean.com) is an excellent option!
+Hosting your website implies that you rent a **VPS** (*Virtual Private Server*) from a company of choice. There are many companies you can rent a VPS from, although some may require that you submit a whitelist application beforehand (such as OVH). If you're looking for a decent VPS that's also quick to set up, [DigitalOcean](https://www.digitalocean.com) is an excellent option!
