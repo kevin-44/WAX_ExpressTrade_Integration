@@ -25,3 +25,5 @@ After installing XAMPP (or all of the above by any other mean), start **Apache**
 <img alt = "XAMPP - Start Apache and MySQL Server" src = "img/xampp_start_apache_and_mysql_server.png">
 
 > **Note**: **Apache** and the **MySQL server** must be running for you to access your *unpublished* website. If you reboot your PC, you must open XAMPP and start both again. At the end of this tutorial, you will learn how to publish your website so that anyone around the world can visit it - it's only available to you for now!
+
+> **Caution!** Programs such as Skype can interfere with the startup of certain servers, close any suspected programs and try again.
