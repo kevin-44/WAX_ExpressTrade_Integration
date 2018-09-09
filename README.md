@@ -50,3 +50,5 @@ Hosting your website implies that you rent a **VPS** (*Virtual Private Server*) 
 Regardless of the company you decide to rent your VPS from, you must get it online with your **OS** (*Operating System*) of choice installed - **Ubuntu** is recommended for beginners!
 
 <img alt = "DigitalOcean - Create Droplet" src = "img/digitalocean_create_droplet.png">
+
+> **Note**: Although hosting your website on a Windows server is possible, it isn't recommended for beginners - many network adjustments have to be applied to prevent attacks by third parties!
