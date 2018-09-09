@@ -8,6 +8,7 @@ In this tutorial, you will learn how to integrate WAX ExpressTrade into your web
 
 * [Node.js](#nodejs)
 * [PHP](#php)
+	* [Beginners](#beginners)
 
 # Node.js
 
