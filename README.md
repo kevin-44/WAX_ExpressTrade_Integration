@@ -2,7 +2,7 @@
 	<img alt = "Header" src = "img/header.png">
 </p>
 
-In this tutorial, you will learn how to integrate WAX ExpressTrade into your website using [Node.js](#nodejs) or [PHP](#php) - no prior experience is required.
+In this tutorial, you will learn how to integrate WAX ExpressTrade into your website using [Node.js](#nodejs) or [PHP](#php) - no prior experience is required on your behalf.
 
 #### Table of Contents
 
