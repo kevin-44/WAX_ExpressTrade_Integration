@@ -1,1 +1,1 @@
-# WAX_ExpressTrade_Integration
+# WAX ExpressTrade Integration
