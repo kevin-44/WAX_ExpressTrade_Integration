@@ -9,6 +9,8 @@ In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://blo
 * [Node.js](#nodejs)
 * [PHP](#php)
 	* [Beginners](#beginners)
+		* [Local Environment](#local-environment)
+		* [Production Environment](#production-environment)
 
 # Node.js
 
@@ -18,7 +20,7 @@ In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://blo
 
 Before anything, you will need to install a **web server**, a **MySQL server** and **PHP**. If you already know how to do this, skip to the [next step](#beginners).
 
-### Local Development
+### Local Environment
 
 If you aren't interested in setting up an environment for local development, you can skip directly to [setting up a production environment](#production-environment) right off the bat instead.
 
