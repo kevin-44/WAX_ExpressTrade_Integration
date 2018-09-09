@@ -16,4 +16,6 @@ In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://blo
 
 ## Beginners
 
-Before anything, you will need to install **Apache** and a **MySQL server**. If you already know how to do this, skip to the [next step](#beginners).
+Before anything, you will need to install a **web server**, a **MySQL server** and **PHP**. If you already know how to do this, skip to the [next step](#beginners).
+
+A web server, a MySQL server and PHP can be installed by many different means, although [XAMPP](https://www.apachefriends.org) is an all-in-one package that's incredibly easy to install and use; hence, it's a highly recommended option and you should definitely consider using it!
