@@ -13,4 +13,4 @@ In this tutorial, you will learn how to integrate WAX ExpressTrade into your web
 
 # PHP
 
-## Title
+## Beginners
