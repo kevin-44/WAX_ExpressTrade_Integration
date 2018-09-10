@@ -84,3 +84,7 @@ Enter the username and password sent to you via email:
 <img alt = "PuTTY - Log In" src = "img/putty_log_in.png">
 
 > **Note**: Passwords in the SSH client don't show whatsoever, not even as hidden characters (e.g. ••••••).
+
+As stated in the email from DigitalOcean, you must change your password upon initial log on:
+
+<img alt = "PuTTY - Change Password" src = "img/putty_change_password.png">
