@@ -78,6 +78,8 @@ Before anything, you will need to install a **web server** and **PHP**. If you a
 
 If you aren't interested in setting up an environment for local development, you can skip directly to [setting up a production environment](#production-environment-1) (preparing your website on a host) right off the bat.
 
+---
+
 A web server and PHP can be installed by many different means, although [XAMPP](https://www.apachefriends.org) is an all-in-one package that's incredibly easy to install and use; hence, it's a highly recommended option and you should definitely consider using it!
 
 After installing XAMPP (or the above by any other mean), start **Apache** (the web server):
