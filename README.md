@@ -12,6 +12,7 @@ In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://blo
 		* [Production Environment](#production-environment)
 			* [Order/Create Your VPS](#ordercreate-your-vps)
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps)
+			* [Create a New User](#create-a-new-user)
 			* [Install Dependencies](#install-dependencies)
 * [PHP](#php)
 	* [Beginners](#beginners-1)
@@ -19,6 +20,7 @@ In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://blo
 		* [Production Environment](#production-environment-1)
 			* [Order/Create Your VPS](#ordercreate-your-vps-1)
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps-1)
+			* [Create a New User](#create-a-new-user-1)
 			* [Install Dependencies](#install-dependencies-1)
 
 # Node.js
@@ -32,6 +34,8 @@ In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://blo
 #### Order/Create Your VPS
 
 #### Log In & Prepare Your VPS
+
+#### Create a New User
 
 #### Install Dependencies
 
@@ -75,21 +79,21 @@ Typically after creating a VPS, its log in credentials are sent via email - have
 
 You will need an **SSH client** in order to log into your VPS. [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is a highly recommended option!
 
-Run PuTTY and connect to your VPS:
+- Run PuTTY and connect to your VPS:
 
 <img alt = "PuTTY - Connect" src = "img/putty_connect.png">
 
-A dialog titled `PuTTY Security Alert` will prompt, hit `Yes`:
+- A dialog titled `PuTTY Security Alert` will prompt, hit `Yes`:
 
 <img alt = "PuTTY - Security Alert" src = "img/putty_security_alert.png">
 
-Enter the username and password sent to you via email:
+- Enter the username and password sent to you via email:
 
 <img alt = "PuTTY - Log In" src = "img/putty_log_in.png">
 
 > **Note**: Passwords in the SSH client don't show whatsoever, not even as hidden characters (e.g. ••••••).
 
-As stated in the email from DigitalOcean, you must change your password upon initially logging into your VPS for security reasons:
+- As stated in the email from DigitalOcean, you must change your password upon initially logging into your VPS for security reasons:
 
 <img alt = "PuTTY - Change Password" src = "img/putty_change_password.png">
 
@@ -97,21 +101,25 @@ As stated in the email from DigitalOcean, you must change your password upon ini
 
 <img alt = "PuTTY - Change Password via CMD" src = "img/putty_change_password_via_cmd.png">
 
-Check for and install all system updates by executing `apt update && apt upgrade`:
+- Check for and install all system updates by executing `apt update && apt upgrade`:
 
 <img alt = "PuTTY - Ensure VPS Is Updated" src = "img/putty_ensure_vps_is_updated.png">
 
-Clean any residue files by executing `apt autoclean && apt autoremove`:
+- Clean any residue files by executing `apt autoclean && apt autoremove`:
 
 <img alt = "PuTTY - Clean Residue Files" src = "img/putty_clean_residue_files.png">
+
+#### Create a New User
+
+No other command in this tutorial should be executed as `root`. Create a new user and add it to the `sudo` group so it will have administrative privileges.
 
 #### Install Dependencies
 
 If you're using Ubuntu 18.04, use Tasksel to install a **LAMP stack** (*Linux, Apache, MySQL, PHP*):
 
-`tasksel install lamp-server`
+`sudo tasksel install lamp-server`
 
-**(Optional)** Otherwise, you can install **Apache** and **PHP** separately (or if you don't want **MySQL** to be installed):
-- Install Apache: `apt install apache2`
-- Install the base PHP package and the PHP Extension and Application Repository: `apt install php php-pear`
-- Add the PHP module for Apache: `apt install libapache2-mod-php`
+**(Optional)** Otherwise, you can install **Apache** and **PHP** separately (or if you don't want **MySQL** to be installed altogether):
+- Install Apache: `sudo apt install apache2`
+- Install the base PHP package and the PHP Extension and Application Repository: `sudo apt install php php-pear`
+- Add the PHP module for Apache: `sudo apt install libapache2-mod-php`
