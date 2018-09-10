@@ -12,12 +12,14 @@ In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://blo
 		* [Production Environment](#production-environment)
 			* [Order/Create Your VPS](#ordercreate-your-vps)
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps)
+			* [Install Dependencies](#install-dependencies)
 * [PHP](#php)
 	* [Beginners](#beginners-1)
 		* [Local Environment](#local-environment-1)
 		* [Production Environment](#production-environment-1)
 			* [Order/Create Your VPS](#ordercreate-your-vps-1)
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps-1)
+			* [Install Dependencies](#install-dependencies-1)
 
 # Node.js
 
@@ -30,6 +32,8 @@ In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://blo
 #### Order/Create Your VPS
 
 #### Log In & Prepare Your VPS
+
+#### Install Dependencies
 
 # PHP
 
