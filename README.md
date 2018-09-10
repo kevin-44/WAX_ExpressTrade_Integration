@@ -103,7 +103,7 @@ As stated in the email from DigitalOcean, you must change your password upon ini
 
 Check for and install all system updates by executing `apt update && apt upgrade`:
 
-<img alt = "PuTTY - Ensure VPS Is Updated" src = "img/putty_ensure_vps_is_updated.png">
+<img alt = "PuTTY - Update System" src = "img/putty_update_system.png">
 
 Clean any residue files by executing `apt autoclean && apt autoremove`:
 
