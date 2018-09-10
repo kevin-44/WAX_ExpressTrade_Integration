@@ -115,7 +115,7 @@ No other command in this tutorial should be executed as `root`. Create a new use
 
 - Create the user, replacing `example_user` with a username of your choice: `adduser example_user` (you'll be prompt to assign a password and enter information about the user)
 - Add the user to the `sudo` group, replacing `example_user` with the username of the user you previously created: `adduser example_user sudo`
-- Switch to the user: `su php`
+- Switch to the user, by again replacing `example_user`: `su example_user`
 
 #### Install Dependencies
 
