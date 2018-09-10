@@ -79,21 +79,21 @@ Typically after creating a VPS, its log in credentials are sent via email - have
 
 You will need an **SSH client** in order to log into your VPS. [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is a highly recommended option!
 
-- Run PuTTY and connect to your VPS:
+Run PuTTY and connect to your VPS:
 
 <img alt = "PuTTY - Connect" src = "img/putty_connect.png">
 
-- A dialog titled `PuTTY Security Alert` will prompt, hit `Yes`:
+A dialog titled `PuTTY Security Alert` will prompt, hit `Yes`:
 
 <img alt = "PuTTY - Security Alert" src = "img/putty_security_alert.png">
 
-- Enter the username and password sent to you via email:
+Enter the username and password sent to you via email:
 
 <img alt = "PuTTY - Log In" src = "img/putty_log_in.png">
 
 > **Note**: Passwords in the SSH client don't show whatsoever, not even as hidden characters (e.g. ••••••).
 
-- As stated in the email from DigitalOcean, you must change your password upon initially logging into your VPS for security reasons:
+As stated in the email from DigitalOcean, you must change your password upon initially logging into your VPS for security reasons:
 
 <img alt = "PuTTY - Change Password" src = "img/putty_change_password.png">
 
@@ -101,17 +101,20 @@ You will need an **SSH client** in order to log into your VPS. [PuTTY](https://w
 
 <img alt = "PuTTY - Change Password via CMD" src = "img/putty_change_password_via_cmd.png">
 
-- Check for and install all system updates by executing `apt update && apt upgrade`:
+Check for and install all system updates by executing `apt update && apt upgrade`:
 
 <img alt = "PuTTY - Ensure VPS Is Updated" src = "img/putty_ensure_vps_is_updated.png">
 
-- Clean any residue files by executing `apt autoclean && apt autoremove`:
+Clean any residue files by executing `apt autoclean && apt autoremove`:
 
 <img alt = "PuTTY - Clean Residue Files" src = "img/putty_clean_residue_files.png">
 
 #### Create a New User
 
-No other command in this tutorial should be executed as `root`. Create a new user and add it to the `sudo` group so it will have administrative privileges.
+No other command in this tutorial should be executed as `root`. Create a new user and add it to the `sudo` group so you'll have administrative privileges.
+
+- Create the user, replacing `example_user` with a username of your choice: `adduser example_user` (assign a password to the user)
+- Add the user to the `sudo` group: `adduser example_user sudo`
 
 #### Install Dependencies
 
