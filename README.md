@@ -69,4 +69,4 @@ Typically after creating a VPS, its log in credentials are sent via email - have
 
 #### Log In & Prepare Your VPS
 
-You will need an **SSH client** in order to log into your VPS - [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is highly recommended!
+You will need an **SSH client** in order to log into your VPS. [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is quite popular and highly recommended!
