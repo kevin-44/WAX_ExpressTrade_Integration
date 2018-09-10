@@ -12,6 +12,9 @@
 		<td align = "center">
 			<table align = "center">
 				<td align = "center">
+					<a href = "https://trade.opskins.com">WAX ExpressTrade</a>
+				</td>
+				<td align = "center">
 					<a href = "https://github.com/OPSkins/trade-opskins-api">API Documentation for WAX ExpressTrade</a>
 				</td>
 				<td align = "center">
