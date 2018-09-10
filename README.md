@@ -76,7 +76,7 @@ Before anything, you will need to install a **web server** and **PHP**. If you a
 
 ### Local Environment
 
-If you aren't interested in setting up an environment for local development, you can skip directly to [setting up a production environment](#production-environment-1) (or in simple terms, preparing your website so it can be visible to anyone around the world!) right off the bat.
+If you aren't interested in setting up an environment for local development, you can skip directly to [setting up a production environment](#production-environment-1) (or in simple terms, preparing an environment where you can publish your website so it's accessible to everyone and anyone around the world!) right off the bat.
 
 ---
 
