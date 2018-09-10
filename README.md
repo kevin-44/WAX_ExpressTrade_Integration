@@ -110,3 +110,9 @@ Clean any residue files by executing `apt autoclean && apt autoremove`:
 If you're using Ubuntu 18.04, use Tasksel to install a **LAMP stack** (*Linux, Apache, MySQL, PHP*):
 
 `tasksel install lamp-server`
+
+**(Optional)** Otherwise, you can install **Apache** and **PHP** separately:
+
+	* Install Apache:
+
+	`apt install apache2`
