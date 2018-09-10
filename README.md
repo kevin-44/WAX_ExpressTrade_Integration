@@ -85,6 +85,10 @@ Enter the username and password sent to you via email:
 
 > **Note**: Passwords in the SSH client don't show whatsoever, not even as hidden characters (e.g. ••••••).
 
-As stated in the email from DigitalOcean, you must change your password upon initial log on:
+As stated in the email from DigitalOcean, you must change your password upon initial log on for security reasons:
 
 <img alt = "PuTTY - Change Password" src = "img/putty_change_password.png">
+
+**(Optional)** Not all providers force you to change your password upon initially logging into your VPS, although it's recommended. You can alternatively change your password with the `passwd` command:
+
+<img alt = "PuTTY - Change Password via CMD" src = "img/putty_change_password_via_cmd.png">
