@@ -4,9 +4,10 @@
 
 In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) into your website using [Node.js](#nodejs) or [PHP](#php)!
 
-| --- | --- |
-| [API Documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) | [About WAX ExpressTrade](https://blog.opskins.com/opskins-expresstrade) |
-| --- | --- |
+<table align = "center">
+	<td align = "center">[API Documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api)</td>
+	<td align = "center">[About WAX ExpressTrade](https://blog.opskins.com/opskins-expresstrade)</td>
+</table>
 
 #### Table of Contents
 
