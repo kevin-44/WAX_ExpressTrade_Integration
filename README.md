@@ -9,11 +9,12 @@
 		</td>
 	</tr>
 	<tr>
-		<td>[]()</td>
 		<td align = "center">
 			<table align = "center">
-				<td align = "center">[API Documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api)</td>
-				<td align = "center">[About WAX ExpressTrade](https://blog.opskins.com/opskins-expresstrade)</td>
+				<tr>
+					<td align = "center">[API Documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api)</td>
+					<td align = "center">[About WAX ExpressTrade](https://blog.opskins.com/opskins-expresstrade)</td>
+				</tr>
 			</table>
 		</td>
 	</tr>
