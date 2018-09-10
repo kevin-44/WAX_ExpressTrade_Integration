@@ -27,6 +27,11 @@
 					<a href = "https://opskins.com">Buy/Sell Skins & Items</a>
 				</td>
 			</table>
+			<table>
+				<td align = "center">
+					Test
+				</td>
+			</table>
 		</td>
 	</tr>
 </table>
