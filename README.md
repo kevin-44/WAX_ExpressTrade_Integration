@@ -5,18 +5,14 @@
 <table align = "center">
 	<tr>
 		<td align = "center">
-			<table align = "center">
-				<td align = "center">
-					In this tutorial, you will learn how to integrate <a href = "https://github.com/OPSkins/trade-opskins-api">WAX ExpressTrade</a> into your website using <a href = "#nodejs">Node.js</a> or <a href = "#php">PHP</a>!
-				</td>
-			</table>
+			In this tutorial, you will learn how to integrate <a href = "https://github.com/OPSkins/trade-opskins-api">WAX ExpressTrade</a> into your website using <a href = "#nodejs">Node.js</a> or <a href = "#php">PHP</a>!
 		</td>
 	</tr>
 	<tr>
 		<td align = "center">
 			<table align = "center">
 				<td align = "center">
-					[API Documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api)
+					<a href = "https://github.com/OPSkins/trade-opskins-api">API Documentation for WAX ExpressTrade</a>
 				</td>
 				<td align = "center">
 					[About WAX ExpressTrade](https://blog.opskins.com/opskins-expresstrade)
