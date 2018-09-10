@@ -27,31 +27,28 @@
 					<a href = "https://opskins.com">Buy/Sell Skins & Items</a>
 				</td>
 			</table>
-			<table>
-				<td align = "center">
-					#### Table of Contents
-
-					* [Node.js](#nodejs)
-						* [Beginners](#beginners)
-							* [Local Environment](#local-environment)
-							* [Production Environment](#production-environment)
-								* [Order/Create Your VPS](#ordercreate-your-vps)
-								* [Log In & Prepare Your VPS](#log-in--prepare-your-vps)
-								* [Create a New User](#create-a-new-user)
-								* [Install Dependencies](#install-dependencies)
-					* [PHP](#php)
-						* [Beginners](#beginners-1)
-							* [Local Environment](#local-environment-1)
-							* [Production Environment](#production-environment-1)
-								* [Order/Create Your VPS](#ordercreate-your-vps-1)
-								* [Log In & Prepare Your VPS](#log-in--prepare-your-vps-1)
-								* [Create a New User](#create-a-new-user-1)
-								* [Install Dependencies](#install-dependencies-1)
-				</td>
-			</table>
 		</td>
 	</tr>
 </table>
+
+#### Table of Contents
+
+* [Node.js](#nodejs)
+	* [Beginners](#beginners)
+		* [Local Environment](#local-environment)
+		* [Production Environment](#production-environment)
+			* [Order/Create Your VPS](#ordercreate-your-vps)
+			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps)
+			* [Create a New User](#create-a-new-user)
+			* [Install Dependencies](#install-dependencies)
+* [PHP](#php)
+	* [Beginners](#beginners-1)
+		* [Local Environment](#local-environment-1)
+		* [Production Environment](#production-environment-1)
+			* [Order/Create Your VPS](#ordercreate-your-vps-1)
+			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps-1)
+			* [Create a New User](#create-a-new-user-1)
+			* [Install Dependencies](#install-dependencies-1)
 
 # Node.js
 
