@@ -107,6 +107,6 @@ Clean any residue files by executing `apt autoclean && apt autoremove`:
 
 #### Install Dependencies
 
-If you are using Ubuntu 18.04, use Tasksel to install a **LAMP stack** (*Linux, Apache, MySQL, PHP*):
+If you're using Ubuntu 18.04, use Tasksel to install a **LAMP stack** (*Linux, Apache, MySQL, PHP*):
 
 `tasksel install lamp-server`
