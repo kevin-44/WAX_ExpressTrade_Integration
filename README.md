@@ -68,3 +68,5 @@ Typically after creating a VPS, its log in credentials are sent via email - have
 > **Note**: Hosting a website on a Windows server is possible; however, it isn't recommended for beginners - many network adjustments must be applied to prevent attacks by third parties.
 
 #### Log In & Prepare Your VPS
+
+You will need an **SSH client** in order to log into your VPS - [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is highly recommended!
