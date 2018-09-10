@@ -18,6 +18,9 @@
 					<a href = "https://github.com/OPSkins/trade-opskins-api">API Documentation for WAX ExpressTrade</a>
 				</td>
 				<td align = "center">
+					<a href = "https://docs.opskins.com/public/en.html#oauth">OPSkins OAuth</a>
+				</td>
+				<td align = "center">
 					<a href = "https://blog.opskins.com/opskins-expresstrade">About WAX ExpressTrade</a>
 				</td>
 				<td align = "center">
