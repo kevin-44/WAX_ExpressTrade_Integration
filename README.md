@@ -75,6 +75,10 @@ Run PuTTY and connect to your VPS:
 
 <img alt = "PuTTY - Connect" src = "img/putty_connect.png">
 
-A dialog titled `Putty Security Alert` will prompt, hit `Yes`:
+A dialog titled `PuTTY Security Alert` will prompt, hit `Yes`:
 
 <img alt = "PuTTY - Security Alert" src = "img/putty_security_alert.png">
+
+Log in as `root` and enter your password:
+
+<img alt = "PuTTY - Log In" src = "img/putty_log_in.png">
