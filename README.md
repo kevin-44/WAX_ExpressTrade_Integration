@@ -83,4 +83,4 @@ Log in as `root` and enter your password:
 
 <img alt = "PuTTY - Log In" src = "img/putty_log_in.png">
 
-> **Note**: Passwords in the SSH client won't show whatsoever, not even hidden (e.g. ••••••).
+> **Note**: Passwords in the SSH client don't show whatsoever, not even as hidden characters (e.g. ••••••).
