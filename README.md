@@ -106,3 +106,7 @@ Clean any residue files by executing `apt autoclean && apt autoremove`:
 <img alt = "PuTTY - Clean Residue Files" src = "img/putty_clean_residue_files.png">
 
 #### Install Dependencies
+
+If you are using Ubuntu 18.04, use Tasksel to install a **LAMP stack** (*Linux, Apache, MySQL, PHP*):
+
+`tasksel install lamp-server`
