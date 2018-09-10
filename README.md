@@ -72,7 +72,7 @@
 
 Before anything, you will need to install a **web server** and **PHP**. If you already know how to do this, skip to the [next step](#beginners-1).
 
-> **Note**: Instructions related to setting up a **MySQL server** won't be addressed in this tutorial; however, it's recommended that you go forward with its installation if you plan on creating a functional website that serves user accounts, saves their settings, processes any transactions, etc.
+> **Note**: Instructions related to setting up a **MySQL server** won't be addressed in this tutorial; however, it's recommended that you go forward with the process if you plan on creating a functional website that serves user accounts, saves their settings, processes any transactions, etc.
 
 ### Local Environment
 
