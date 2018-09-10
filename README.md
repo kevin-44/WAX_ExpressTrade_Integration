@@ -79,7 +79,7 @@ A dialog titled `PuTTY Security Alert` will prompt, hit `Yes`:
 
 <img alt = "PuTTY - Security Alert" src = "img/putty_security_alert.png">
 
-Enter your username and password sent to you via email:
+Enter the username and password sent to you via email:
 
 <img alt = "PuTTY - Log In" src = "img/putty_log_in.png">
 
