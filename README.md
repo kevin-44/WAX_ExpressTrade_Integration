@@ -2,7 +2,10 @@
 	<img alt = "Header" src = "img/header.png">
 </p>
 
-In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://blog.opskins.com/opskins-expresstrade) into your website using [Node.js](#nodejs) or [PHP](#php)!
+In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) into your website using [Node.js](#nodejs) or [PHP](#php)!
+
+| --- | --- |
+| [API docs for trade.opskins.com](https://github.com/OPSkins/trade-opskins-api) | [About WAX ExpressTrade](https://blog.opskins.com/opskins-expresstrade) |
 
 #### Table of Contents
 
