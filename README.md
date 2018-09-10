@@ -3,7 +3,7 @@
 </p>
 
 <table align = "center">
-	<td align = "center">In this tutorial, you will learn how to integrate [WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) into your website using [Node.js](#nodejs) or [PHP](#php)!</td>
+	<td align = "center">In this tutorial, you will learn how to integrate <a href = "https://github.com/OPSkins/trade-opskins-api">WAX ExpressTrade</a> into your website using [Node.js](#nodejs) or [PHP](#php)!</td>
 </table>
 
 <table align = "center">
