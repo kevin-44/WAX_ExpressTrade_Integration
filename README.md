@@ -100,3 +100,5 @@ Ensure your VPS is updated by executing `apt update && apt upgrade`:
 Clean any residue files by executing `apt autoclean && apt autoremove`:
 
 <img alt = "PuTTY - Clean Residue Files" src = "img/putty_clean_residue_files.png">
+
+#### Install Dependencies
