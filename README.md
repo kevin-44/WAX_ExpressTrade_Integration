@@ -47,7 +47,7 @@ After installing XAMPP (or the above by any other mean), start **Apache** (the w
 
 <img alt = "XAMPP - Start Apache (The Web Server)" src = "img/xampp_start_apache_server.png">
 
-Any project you create should be placed in the `htdocs` folder were XAMPP was installed. You can access your projects at `http://localhost/some-project` via your browser, where `some-project` is the path to one of your projects.
+Any project you create should be placed in the `htdocs` folder were you installed XAMPP. You can access your projects at `http://localhost/some-project` via your browser, where `some-project` is the path to one of your projects.
 
 > **Note**: The **web server** must be running for you to access your *unpublished* website. If you reboot your PC, you must open XAMPP and start it again.
 
