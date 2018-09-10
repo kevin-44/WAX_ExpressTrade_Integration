@@ -15,7 +15,7 @@
 					<a href = "https://github.com/OPSkins/trade-opskins-api">API Documentation for WAX ExpressTrade</a>
 				</td>
 				<td align = "center">
-					[About WAX ExpressTrade](https://blog.opskins.com/opskins-expresstrade)
+					<a href = "https://blog.opskins.com/opskins-expresstrade">About WAX ExpressTrade</a>
 				</td>
 			</table>
 		</td>
