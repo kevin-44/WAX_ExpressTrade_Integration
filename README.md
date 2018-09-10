@@ -2,9 +2,9 @@
 	<img alt = "Header" src = "img/header.png">
 </p>
 
-<table align = "center">
+<table>
 	<tr>
-		<td>
+		<td align = "center">
 			In this tutorial, you will learn how to integrate <a href = "https://github.com/OPSkins/trade-opskins-api">WAX ExpressTrade</a> into your website using <a href = "#nodejs">Node.js</a> or <a href = "#php">PHP</a>!
 		</td>
 	</tr>
