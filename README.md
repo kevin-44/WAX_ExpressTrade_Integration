@@ -73,4 +73,4 @@ You will need an **SSH client** in order to log into your VPS. [PuTTY](https://w
 
 After getting PuTTY, connect to your VPS:
 
-<img alt = "PuTTY - Connect" src = "img/connect_via_putty.png">
+<img alt = "PuTTY - Connect" src = "img/putty_connect.png">
