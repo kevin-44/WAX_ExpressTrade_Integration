@@ -24,7 +24,7 @@
 					<a href = "https://blog.opskins.com/opskins-expresstrade">About WAX ExpressTrade</a>
 				</td>
 				<td align = "center">
-					<a href = "https://opskins.com">Buy/Sell Skins & Items</a>
+					<a href = "https://opskins.com">Buy/Sell Tradable Skins & Items</a>
 				</td>
 			</table>
 		</td>
