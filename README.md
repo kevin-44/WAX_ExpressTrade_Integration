@@ -111,6 +111,5 @@ If you're using Ubuntu 18.04, use Tasksel to install a **LAMP stack** (*Linux, A
 
 `tasksel install lamp-server`
 
-**(Optional)** Otherwise, you can install **Apache** and **PHP** separately:
-
-	* Install Apache: `apt install apache2`
+**(Optional)** Otherwise, you can install **Apache** and **PHP** separately (or if you don't want MySQL to be installed):
+- Install Apache: `apt install apache2`
