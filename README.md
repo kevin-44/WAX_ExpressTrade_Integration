@@ -186,7 +186,7 @@ After registering a domain of your choice, modify its **host records**, replacin
 * **Type**: A Record, **Host**: @, **Value**: 165.227.28.23, **TTL**: Automatic
 * **Type**: A Record, **Host**: www, **Value**: 165.227.28.23, **TTL**: Automatic
 
-**@** is a shortcut for the name defined as origin ([*$ORIGIN*](http://www.zytrax.com/books/dns/ch8/origin.html)) - basically your domain name which also represents the root directory. The second host record will accept requests with the **www** subdomain attached.
+> **Note**: **@** is a shortcut for the name defined as origin ([*$ORIGIN*](http://www.zytrax.com/books/dns/ch8/origin.html)) - basically your domain name which also represents the root directory. The second host record will accept requests with the **www** subdomain attached.
 
 <img alt = "NameCheap - Modify Host Records" src = "img/namecheap_modify_host_records.png">
 
