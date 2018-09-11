@@ -173,7 +173,7 @@ Your website (or at least the `Apache2 Ubuntu Default Page`) should be accessibl
 
 ---
 
-There are many companies you can register a domain with. [NameCheap](https://www.namecheap.com) and [GoDaddy](https://www.godaddy.com) are excellent domain name providers with an active support team, they both are highly recommended!
+There are many companies you can register a domain with. [NameCheap](https://www.namecheap.com) & [GoDaddy](https://www.godaddy.com) are excellent domain name providers and both have an active support team, either one is highly recommended!
 
 > **Note**: You aren't forced to pay for a domain as there are free options (such as [.tk](http://www.dot.tk)), but you are limiting the array of extensions available to you - keep in mind that some people also tend to stay away from websites with free domains.
 
