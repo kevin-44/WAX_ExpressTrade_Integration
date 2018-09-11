@@ -198,7 +198,11 @@ After registering a domain of your choice, modify its **host records**, replacin
 
 **If you didn't purchase an SSL certificate, click [here](#if-you-purchased-an-ssl-certificate-click-here-to-continue) to continue.**
 
-It's great that you have decided to install an SSL certificate in order to protect your visitors' information (such as passwords) - now you need to activate it! For that, you will need to enable SSL mode so that Apache is able to run an encrypted HTTPS connection:
+It's great that you have decided to install an SSL certificate in order to protect your visitors' information (such as passwords) - now you need to activate it! For that, you will need to generate a CSR:
+
+`openssl req -new -newkey rsa:2048 -nodes -keyout server.key -out server.csr` (you'll be prompt to enter information)
+
+You will then need to enable SSL mode so that Apache is able to run an encrypted HTTPS connection:
 
 `sudo a2enmod ssl`
 
