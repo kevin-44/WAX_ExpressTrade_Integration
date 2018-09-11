@@ -41,7 +41,7 @@
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps)
 			* [Create a New User](#create-a-new-user)
 			* [Install Dependencies](#install-dependencies)
-			* [Purchase a Domain & Configure Name-based Virtual Hosts](#purchase-a-domain--configure-name-based-virtual-hosts)
+			* [(Optional) Purchase a Domain & Configure Name-based Virtual Hosts](#-optional--purchase-a-domain--configure-name-based-virtual-hosts)
 	* [Install Dependencies](#install-dependencies-1)
 * [PHP](#php)
 	* [Beginners](#beginners-1)
@@ -51,7 +51,7 @@
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps-1)
 			* [Create a New User](#create-a-new-user-1)
 			* [Install Dependencies](#install-dependencies-2)
-			* [Purchase a Domain & Configure Name-based Virtual Hosts](#purchase-a-domain--configure-name-based-virtual-hosts-1)
+			* [(Optional) Purchase a Domain & Configure Name-based Virtual Hosts](#-optional--purchase-a-domain--configure-name-based-virtual-hosts-1)
 	* [Install Dependencies](#install-dependencies-3)
 
 # Node.js
@@ -70,7 +70,7 @@
 
 #### Install Dependencies
 
-#### Purchase a Domain & Configure Name-based Virtual Hosts
+#### (Optional) Purchase a Domain & Configure Name-based Virtual Hosts
 
 ## Install Dependencies
 
@@ -167,6 +167,6 @@ If you're using Ubuntu 18.04, use Tasksel to install a **LAMP stack** (*Linux, A
 
 Any website you create should be placed in `/var/www/html`. You can access one of your websites at `http://IP/some-website` via a web browser, where `IP` is your VPS' IP address and `some-website` is the path to a specific website you wish to render.
 
-#### Purchase a Domain & Configure Name-based Virtual Hosts
+#### (Optional) Purchase a Domain & Configure Name-based Virtual Hosts
 
 ## Install Dependencies
