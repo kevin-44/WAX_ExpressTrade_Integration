@@ -181,6 +181,8 @@ There are many companies you can register a domain with. [NameCheap](https://www
 
 After registering a domain of your choice, modify its **host records**, replacing `165.227.28.23` with your VPS' IP address:
 
+* **Type**: A Record, **Host**: @, **Value**: 165.227.28.23, **TTL**: Automatic
+
 <img alt = "NameCheap - Modify Host Records" src = "img/namecheap_modify_host_records.png">
 
 > **Note**: When a domain is newly registered, or DNS changes are made, you can expect a propagation time up to 24 hours.
