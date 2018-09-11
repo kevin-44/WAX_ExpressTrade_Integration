@@ -179,6 +179,8 @@ There are many companies you can register a domain with. [NameCheap](https://www
 
 > **Note**: You aren't forced to pay for a domain as there are free options (such as [.tk](http://www.dot.tk)), but you are limiting the array of extensions available to you - either way, it is to note that some people tend to stay away from websites with free domains; therefore, go with a paid domain if you're aiming for success!
 
-After registering a domain of your choice, 
+After registering a domain of your choice, modify its **host records**, replacing `165.227.28.23` with your VPS' IP address:
+
+<img alt = "NameCheap - Modify Host Records" src = "img/namecheap_modify_host_records.png">
 
 ## Install Dependencies
