@@ -173,6 +173,6 @@ Your website (or at least the `Apache2 Ubuntu Default Page`) should be accessibl
 
 ---
 
-As there are many different companies you can rent a VPS from, there are many companies you can register your domain with. Although you can obtain a domain for completely free (e.g. [.tk](http://www.dot.tk)), you are limiting the array of extensions available to you - some people also tend to stay away from websites with such domains.
+There are many companies you can purchase and register a domain with. Although you can obtain a domain for free (e.g. [.tk](http://www.dot.tk)), you are limiting the array of extensions available to you - some people also tend to stay away from websites with such domains.
 
 ## Install Dependencies
