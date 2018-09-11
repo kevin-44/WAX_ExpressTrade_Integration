@@ -41,7 +41,7 @@
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps)
 			* [Create a New User](#create-a-new-user)
 			* [Install Dependencies](#install-dependencies)
-			* [Purchase a Domain & Configure Name-based Virtual Hosts](#purchase-a-domain--configure-name-based-virtual-hosts)
+			* [Register a Domain & Configure Name-based Virtual Hosts](#register-a-domain--configure-name-based-virtual-hosts)
 	* [Install Dependencies](#install-dependencies-1)
 * [PHP](#php)
 	* [Beginners](#beginners-1)
@@ -51,7 +51,7 @@
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps-1)
 			* [Create a New User](#create-a-new-user-1)
 			* [Install Dependencies](#install-dependencies-2)
-			* [Purchase a Domain & Configure Name-based Virtual Hosts](#purchase-a-domain--configure-name-based-virtual-hosts-1)
+			* [Register a Domain & Configure Name-based Virtual Hosts](#register-a-domain--configure-name-based-virtual-hosts-1)
 	* [Install Dependencies](#install-dependencies-3)
 
 # Node.js
@@ -70,7 +70,7 @@
 
 #### Install Dependencies
 
-#### Purchase a Domain & Configure Name-based Virtual Hosts
+#### Register a Domain & Configure Name-based Virtual Hosts
 
 ## Install Dependencies
 
@@ -167,12 +167,12 @@ If you're using Ubuntu 18.04, use Tasksel to install a **LAMP stack** (*Linux, A
 
 Any website you create should be placed in `/var/www/html`. You can access one of your websites at `http://IP/some-website` via a web browser, where `IP` is your VPS' IP address and `some-website` is the path to a specific website you wish to render.
 
-#### Purchase a Domain & Configure Name-based Virtual Hosts
+#### Register a Domain & Configure Name-based Virtual Hosts
 
 Your website (or at least the `Apache2 Ubuntu Default Page`) should be accessible at this point. It's recommended that you assign a domain to your website if you plan on having visitors from all around the world; however, it isn't technically necessary - your visitors would just have trouble remembering your VPS' IP address. If you do not wish to assign a domain to your website, skip to the [next step](#install-dependencies-3).
 
 ---
 
-There are many companies you can purchase and register a domain with. Although you can obtain a domain for free (e.g. [.tk](http://www.dot.tk)), you are limiting the array of extensions available to you - keep in mind that some people also tend to stay away from websites with free domains.
+There are many companies you can register a domain with. Although you can obtain a domain for free (e.g. [.tk](http://www.dot.tk)), you are limiting the array of extensions available to you - keep in mind that some people also tend to stay away from websites with free domains.
 
 ## Install Dependencies
