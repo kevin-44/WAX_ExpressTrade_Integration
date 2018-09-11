@@ -142,9 +142,9 @@ Check for and install all system updates by executing `apt update && apt upgrade
 
 <img alt = "PuTTY - Update System" src = "img/putty_update_system.png">
 
-Clean any residue files by executing `apt autoclean && apt autoremove`:
+Remove any residue files by executing `apt autoclean && apt autoremove`:
 
-<img alt = "PuTTY - Clean Residue Files" src = "img/putty_clean_residue_files.png">
+<img alt = "PuTTY - Remove Residue Files" src = "img/putty_remove_residue_files.png">
 
 #### Create a New User
 
