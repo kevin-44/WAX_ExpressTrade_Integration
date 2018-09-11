@@ -183,6 +183,6 @@ After registering a domain of your choice, modify its **host records**, replacin
 
 <img alt = "NameCheap - Modify Host Records" src = "img/namecheap_modify_host_records.png">
 
-> **Note**: When a domain is newly registered, the nameservers are changed, or DNS changes are made, you can expect a propagation time up to 24 hours.
+> **Note**: When a domain is newly registered, or DNS changes are made, you can expect a propagation time up to 24 hours.
 
 ## Install Dependencies
