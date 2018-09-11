@@ -161,6 +161,6 @@ If you're using Ubuntu 18.04, use Tasksel to install a **LAMP stack** (*Linux, A
 - Install the base PHP package and the PHP Extension and Application Repository: `sudo apt install php php-pear`
 - Add the PHP module for Apache: `sudo apt install libapache2-mod-php`
 
-Any website you create should be placed in `/var/www/html`. You can access one of your websites at `http://IP/some-website` via a web browser, where `IP` is your VPS's IP address and `some-website` is the path to a specific website you wish to render.
+Any website you create should be placed in `/var/www/html`. You can access one of your websites at `http://IP/some-website` via a web browser, where `IP` is your VPS' IP address and `some-website` is the path to a specific website you wish to render.
 
 ## Install Dependencies
