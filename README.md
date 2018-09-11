@@ -194,7 +194,7 @@ After registering a domain of your choice, modify its **host records**, replacin
 
 ---
 
-If you didn't purchase an SSL certificate, click [here](#continue-here) to continue.
+If you didn't purchase an SSL certificate, click [here](#----continue-here-if-you-didnt-purchase-an-ssl-certificate----) to continue.
 
 ---
 
