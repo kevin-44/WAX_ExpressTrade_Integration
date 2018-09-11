@@ -198,7 +198,7 @@ If you didn't purchase an SSL certificate, click [here](#continue-here) to conti
 
 ---
 
-##### --- Continue here if you didn't purchase an SSL certificate ---
+#### --- Continue here if you didn't purchase an SSL certificate ---
 
 Moving forward, go back to PuTTY to configure the name-based virtual hosts so that your VPS knows what to do when someone visits your domain.
 
