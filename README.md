@@ -194,11 +194,11 @@ After registering a domain of your choice, modify its **host records**, replacin
 
 ---
 
-If you didn't purchase an SSL certificate, click [here](#----continue-here-if-you-didnt-purchase-an-ssl-certificate----) to continue.
+**If you didn't purchase an SSL certificate, click [here](#continue-below-if-you-didnt-purchase-an-ssl-certificate) to continue.**
 
 ---
 
-#### --- Continue here if you didn't purchase an SSL certificate ---
+#### Continue below if you didn't purchase an SSL certificate
 
 Moving forward, go back to PuTTY to configure the name-based virtual hosts so that your VPS knows what to do when someone visits your domain.
 
