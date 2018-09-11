@@ -173,6 +173,6 @@ Your website (or at least the `Apache2 Ubuntu Default Page`) should be accessibl
 
 ---
 
-There are many companies you can purchase and register a domain with. Although you can obtain a domain for free (e.g. [.tk](http://www.dot.tk)), you are limiting the array of extensions available to you - keep in mind that some people also tend to stay away from websites with such domains.
+There are many companies you can purchase and register a domain with. Although you can obtain a domain for free (e.g. [.tk](http://www.dot.tk)), you are limiting the array of extensions available to you - keep in mind that some people also tend to stay away from websites with free domains.
 
 ## Install Dependencies
