@@ -156,7 +156,7 @@ No other command in this tutorial should be executed as `root` (except the ones 
 - Add the user to the `sudo` group, replacing `example_user` with the username of the user you previously created: `adduser example_user sudo`
 - Switch to the user, again by replacing `example_user`: `su example_user`
 
-> **Note**: Log into your VPS with the credentials you previously created from here on out (add **sudo** at the beginning of a command if administrative privileges is required); although, you can always use the **su** command to switch between users.
+> **Note**: Log into your VPS with the credentials you previously created from here on out (add **sudo** at the beginning of a command if administrative privileges is required); although, you can always use the **su** command to switch to the user.
 
 #### Install Dependencies
 
