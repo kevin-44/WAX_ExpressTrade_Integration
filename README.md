@@ -41,7 +41,7 @@
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps)
 			* [Create a New User](#create-a-new-user)
 			* [Install Dependencies](#install-dependencies)
-			* [(Optional) Purchase a Domain & Configure Name-based Virtual Hosts](#-optional--purchase-a-domain--configure-name-based-virtual-hosts)
+			* [(Optional) Purchase a Domain & Configure Name-based Virtual Hosts](#optional-purchase-a-domain--configure-name-based-virtual-hosts)
 	* [Install Dependencies](#install-dependencies-1)
 * [PHP](#php)
 	* [Beginners](#beginners-1)
@@ -51,7 +51,7 @@
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps-1)
 			* [Create a New User](#create-a-new-user-1)
 			* [Install Dependencies](#install-dependencies-2)
-			* [(Optional) Purchase a Domain & Configure Name-based Virtual Hosts](#-optional--purchase-a-domain--configure-name-based-virtual-hosts-1)
+			* [(Optional) Purchase a Domain & Configure Name-based Virtual Hosts](#optional-purchase-a-domain--configure-name-based-virtual-hosts-1)
 	* [Install Dependencies](#install-dependencies-3)
 
 # Node.js
