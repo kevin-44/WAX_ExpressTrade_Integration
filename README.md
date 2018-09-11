@@ -198,7 +198,13 @@ After registering a domain of your choice, modify its **host records**, replacin
 
 **If you didn't purchase an SSL certificate, click [here](#if-you-purchased-an-ssl-certificate-click-here-to-continue) to continue.**
 
-Moving forward, go back to PuTTY to configure the name-based virtual hosts so that your VPS knows what to do when someone visits your domain.
+It's great that you have decided to install an SSL certificate in order to protect your visitors' information (such as passwords) - now you need to activate it! For that, you will need to enable SSL mode so that Apache is able to run an encrypted HTTPS connection:
+
+`sudo a2enmod ssl`
+
+As printed in the SSH client, you must restart Apache afterwards:
+
+`sudo systemctl restart apache2`
 
 ---
 
