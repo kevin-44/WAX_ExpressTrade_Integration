@@ -182,6 +182,9 @@ There are many companies you can register a domain with. [NameCheap](https://www
 After registering a domain of your choice, modify its **host records**, replacing `165.227.28.23` with your VPS' IP address:
 
 * **Type**: A Record, **Host**: @, **Value**: 165.227.28.23, **TTL**: Automatic
+* **Type**: A Record, **Host**: www, **Value**: 165.227.28.23, **TTL**: Automatic
+
+> **Note**: **@** is a shortcut for the name defined as origin ([*$ORIGIN*](http://www.zytrax.com/books/dns/ch8/origin.html)) - basically your domain name which also represents the root directory. The second host record is redirecting requests with the **www** subdomain to your website.
 
 <img alt = "NameCheap - Modify Host Records" src = "img/namecheap_modify_host_records.png">
 
