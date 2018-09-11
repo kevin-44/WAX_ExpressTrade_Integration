@@ -193,7 +193,7 @@ After registering a domain of your choice, modify its **host records**, replacin
 > **Note**: When a domain is newly registered, or DNS changes are made, you can expect a propagation time up to 24 hours.
 
 ```
-**If you purchased an SSL certificate**
+<b>If you purchased an SSL certificate</b>
 ```
 
 Moving forward, go back to PuTTY to configure the name-based virtual hosts so that your VPS knows what to do when someone visits your domain.
