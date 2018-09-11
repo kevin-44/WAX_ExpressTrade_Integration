@@ -41,6 +41,7 @@
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps)
 			* [Create a New User](#create-a-new-user)
 			* [Install Dependencies](#install-dependencies)
+	* [Install Dependencies](#install-dependencies-1)
 * [PHP](#php)
 	* [Beginners](#beginners-1)
 		* [Local Environment](#local-environment-1)
@@ -48,7 +49,8 @@
 			* [Order/Create Your VPS](#ordercreate-your-vps-1)
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps-1)
 			* [Create a New User](#create-a-new-user-1)
-			* [Install Dependencies](#install-dependencies-1)
+			* [Install Dependencies](#install-dependencies-2)
+	* [Install Dependencies](#install-dependencies-3)
 
 # Node.js
 
@@ -66,11 +68,13 @@
 
 #### Install Dependencies
 
+## Install Dependencies
+
 # PHP
 
 ## Beginners
 
-Before anything, you will need to install a **web server** and **PHP**. If you already know how to do this, skip to the [next step](#beginners-1).
+Before anything, you will need to install a **web server** and **PHP**. If you already know how to do this, skip to the [next step](#install-dependencies-3).
 
 > **Note**: Instructions related to setting up a **MySQL server** won't be addressed in this tutorial; however, it's recommended that you go forward with the process if you plan on creating a functional website that serves user accounts, saves their settings and/or stores any other data in general.
 
@@ -156,3 +160,5 @@ If you're using Ubuntu 18.04, use Tasksel to install a **LAMP stack** (*Linux, A
 - Install Apache: `sudo apt install apache2`
 - Install the base PHP package and the PHP Extension and Application Repository: `sudo apt install php php-pear`
 - Add the PHP module for Apache: `sudo apt install libapache2-mod-php`
+
+## Install Dependencies
