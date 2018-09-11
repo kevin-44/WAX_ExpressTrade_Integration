@@ -200,12 +200,8 @@ Moving forward, go back to PuTTY to configure the name-based virtual hosts so th
 
 ---
 
----
-
 #### If you purchase an SSL certificate, click [here](#install-dependencies-3) to continue.
 
 Moving forward, go back to PuTTY to configure the name-based virtual hosts so that your VPS knows what to do when someone visits your domain.
-
----
 
 ## Install Dependencies
