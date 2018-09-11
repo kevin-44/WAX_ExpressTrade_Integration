@@ -37,7 +37,7 @@
 	* [Beginners](#beginners)
 		* [Local Environment](#local-environment)
 		* [Production Environment](#production-environment)
-			* [Order/Create Your VPS](#ordercreate-your-vps)
+			* [Order/Create a VPS](#ordercreate-a-vps)
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps)
 			* [Create a New User](#create-a-new-user)
 			* [Install Dependencies](#install-dependencies)
@@ -47,7 +47,7 @@
 	* [Beginners](#beginners-1)
 		* [Local Environment](#local-environment-1)
 		* [Production Environment](#production-environment-1)
-			* [Order/Create Your VPS](#ordercreate-your-vps-1)
+			* [Order/Create a VPS](#ordercreate-a-vps-1)
 			* [Log In & Prepare Your VPS](#log-in--prepare-your-vps-1)
 			* [Create a New User](#create-a-new-user-1)
 			* [Install Dependencies](#install-dependencies-2)
@@ -62,7 +62,7 @@
 
 ### Production Environment
 
-#### Order/Create Your VPS
+#### Order/Create a VPS
 
 #### Log In & Prepare Your VPS
 
@@ -102,9 +102,9 @@ Hosting your website implies that you rent a **VPS** (*Virtual Private Server*) 
 
 > **Note**: You can alternatively host your website with a dedicated web hosting provider (such as [HostGator](https://www.hostgator.com)), this would simplify the process a bit and can be a better option if your VPS provider doesn't provide strong protection against attacks using the default configuration. However, many dedicated web hosting providers disable certain features for security reasons - so if you want to be in complete control and/or plan on hosting more than one website while paying the same amount per month, a VPS would be the better option!
 
-#### Order/Create Your VPS
+#### Order/Create a VPS
 
-Regardless of the company you decide to rent your VPS from, you must get it online with the **OS** (*Operating System*) of your choice installed. **Ubuntu** is recommended for beginners.
+Regardless of the company you decide to rent a VPS from, you must get it online with the **OS** (*Operating System*) of your choice installed. **Ubuntu** is recommended for beginners.
 
 <img alt = "DigitalOcean - Create Droplet" src = "img/digitalocean_create_droplet.png">
 
@@ -178,5 +178,7 @@ Your website (or at least the `Apache2 Ubuntu Default Page`) should be accessibl
 There are many companies you can register a domain with. [NameCheap](https://www.namecheap.com) & [GoDaddy](https://www.godaddy.com) are excellent domain name providers, and both have an active support team! Either one is highly recommended.
 
 > **Note**: You aren't forced to pay for a domain as there are free options (such as [.tk](http://www.dot.tk)), but you are limiting the array of extensions available to you - keep in mind that some people also tend to stay away from websites with free domains.
+
+After registering a domain of your choice, 
 
 ## Install Dependencies
