@@ -192,4 +192,6 @@ After registering a domain of your choice, modify its **host records**, replacin
 
 > **Note**: When a domain is newly registered, or DNS changes are made, you can expect a propagation time up to 24 hours.
 
+Moving forward, go back to PuTTY to configure the name-based virtual hosts.
+
 ## Install Dependencies
