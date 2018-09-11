@@ -169,8 +169,10 @@ Any website you create should be placed in `/var/www/html`. You can access one o
 
 #### Purchase a Domain & Configure Name-based Virtual Hosts
 
-Your website (or at least the `Apache2 Ubuntu Default Page`) should be accessible at this point. It's recommended that you assign a domain to your website if you plan on having visitors from all around the world; however, it isn't technically necessary - your visitors would just have trouble remembering your VPS' IP address when attempting to visit your website! If you do not wish to assign a domain to your website, skip to the [next step](#install-dependencies-3).
+Your website (or at least the `Apache2 Ubuntu Default Page`) should be accessible at this point. It's recommended that you assign a domain to your website if you plan on having visitors from all around the world; however, it isn't technically necessary - your visitors would just have trouble remembering your VPS' IP address! If you do not wish to assign a domain to your website, skip to the [next step](#install-dependencies-3).
 
 ---
+
+
 
 ## Install Dependencies
