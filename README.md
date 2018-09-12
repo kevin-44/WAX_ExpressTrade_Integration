@@ -88,8 +88,8 @@ Throughout this tutorial, there will be several **notes** to give you a brief in
 
 #### Recommended
 
-- [node-wax-expresstrade](https://github.com/karer/node-wax-expresstrade)
 - [node-expresstrade](https://github.com/TheTimmaeh/node-expresstrade)
+- [node-wax-expresstrade](https://github.com/karer/node-wax-expresstrade)
 
 #### Other
 
