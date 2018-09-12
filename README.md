@@ -33,6 +33,7 @@
 
 #### Table of Contents
 
+* [Overview](#overview)
 * [PHP](#php)
 	* [Beginners](#beginners)
 		* [Local Environment](#local-environment)
@@ -59,6 +60,10 @@
 		* [Create an Account](#create-an-account-1)
 		* [Enable 2FA (Two Factor Authentication)](#enable-2fa-two-factor-authentication-1)
 	* [Install Dependencies](#install-dependencies-3)
+
+# Overview
+
+OPSkins has released an **SDK** (*Software Development Kit*) for both [PHP](https://github.com/OPSkins/php-oauth) and [Node.js](https://github.com/OPSkins/node-opskins-api) - the PHP extension isn't specified to be specifically for OPSkins OAuth; however, it contains all the tools you need to invoke the WAX ExpressTrade API.
 
 # PHP
 
