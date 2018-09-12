@@ -236,8 +236,6 @@ Moving forward, it's now time to configure the name-based virtual hosts so that 
 * Paste the following configuration, replacing `example.com` with your domain name, `example_com_key` with the name of your `.key` file, `example_com_crt` with the name of your `.crt` file, and `example_com_ca_bundle` with the name of your `.ca-bundle` file:
 
 	```
-	# domain: example.com
-
 	<VirtualHost *:80>
 		ServerName example.com
 		ServerAlias www.example.com
@@ -272,8 +270,6 @@ Moving forward, it's now time to configure the name-based virtual hosts so that 
 * **(Optional)** The previous configuration will redirect requests to the root directory (`example.com`) to the `www` subdomain (`www.example.com`). If you'd like the previous reversed (`www.example.com` redirects to `example.com`), paste the following instead (just remember to make the same replacements):
 
 	```
-	# domain: example.com
-
 	<VirtualHost *:80>
 		ServerName example.com
 		ServerAlias www.example.com
