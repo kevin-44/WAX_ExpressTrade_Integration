@@ -82,7 +82,7 @@ Throughout this tutorial, there will be several **notes** to give you a brief in
 
 #### Recommended
 
-- `official` [php-oauth](https://github.com/OPSkins/php-oauth) (can be used for both [OPSkins OAuth](https://docs.opskins.com/public/en.html#oauth) and [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api))
+- `official` [php-oauth](https://github.com/OPSkins/php-oauth) (can be used for [OPSkins OAuth](https://docs.opskins.com/public/en.html#oauth) and the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api))
 
 #### Other
 
