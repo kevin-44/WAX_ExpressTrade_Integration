@@ -379,8 +379,8 @@ An [OPSkins](https://opskins.com) account is required for some endpoints of the 
 ### Create an Account
 
 There are two ways you can create an account on OPSkins:
-* [Signing in through Steam on OPSkins for the first time](https://opskins.com/?loc=login)
-* [Entering your information in to a form](https://opskins.com/?loc=login&register)
+* [Sign in through Steam on OPSkins for the first time](https://opskins.com/?loc=login)
+* [Enter your information in to a form](https://opskins.com/?loc=login&register)
 
 ### Enable 2FA (Two Factor Authentication)
 
