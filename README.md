@@ -366,4 +366,6 @@ Finally, restart Apache for the changes to take effect:
 
 An [OPSkins](https://opskins.com) account is required for some endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api); therefore, it is recommended that you create one! There are two ways you can create an account, by a) [signing in through Steam on OPSkins for the first time](https://opskins.com/?loc=login) or b) [entering your information into a form](https://opskins.com/?loc=login&register).
 
+> **Note**: Although you can invoke the WAX ExpressTrade API without an OPSkins account, you are limiting the number of endpoints available to you.
+
 ## Install Dependencies
