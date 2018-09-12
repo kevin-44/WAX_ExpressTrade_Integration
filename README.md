@@ -5,7 +5,7 @@
 <table>
 	<tr>
 		<td align = "center">
-			In this tutorial, you will learn how to integrate <a href = "https://github.com/OPSkins/trade-opskins-api">WAX ExpressTrade</a> into your website using <a href = "#nodejs">Node.js</a> or <a href = "#php">PHP</a>!
+			In this tutorial, you will learn how to integrate <a href = "https://github.com/OPSkins/trade-opskins-api">WAX ExpressTrade</a> into your website using <a href = "#php">PHP</a> or <a href = "#nodejs">Node.js</a>!
 		</td>
 	</tr>
 	<tr>
