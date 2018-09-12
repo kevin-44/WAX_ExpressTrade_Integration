@@ -301,7 +301,7 @@ Moving forward, it's now time to configure the name-based virtual hosts so that 
 	</VirtualHost>
 	```
 
-* Save the changes to the virtual host configuration file by pressing **CTRL** + **X**, hitting *Y* and then pressing *ENTER* to confirm.
+* Save the changes to the virtual host configuration file by pressing **CTRL** + **X**, hitting **Y** and then pressing **ENTER** to confirm.
 
 Finally, restart Apache for the changes to take effect:
 
