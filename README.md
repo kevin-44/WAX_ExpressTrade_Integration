@@ -381,12 +381,12 @@ On the Authenticator extension, click on the settings icon located on the top le
 		"hash": "f4d833fe4c48a77feec7f98519b4fcdc",
 		"index": 0,
 		"issuer": "OPSkins",
-		**"secret": "VIYPXSTVYCV6KXF7"**,
+		"secret": "VIYPXSTVYCV6KXF7",
 		"type": "totp"
 	}
 }
 ```
 
-As highlighted above, that's truly the only value we need from the `.json` file (e.g. `VIYPXSTVYCV6KXF7`) - keep the value in hand as you may need it!
+The only value you need from the `.json` file is `secret` (in case of the example above, that value is `VIYPXSTVYCV6KXF7`) - keep the value in hand as you may need it depending on the features of your website!
 
 ## Install Dependencies
