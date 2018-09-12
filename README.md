@@ -433,6 +433,8 @@ After submitting the code, another modal will prompt. On the Authenticator brows
 
 <img alt = "OPSkins - Enable 2FA Step 5" src = "img/opskins_enable_2fa_step_5.png">
 
+If the selection of the barcode was successful, a browser alert should prompt stating so:
+
 <img alt = "OPSkins - Enable 2FA Step 6" src = "img/opskins_enable_2fa_step_6.png">
 
 On the Authenticator extension, click on the **settings icon** located on the top left corner, hit the **Export / Import** option and then press the **Download Backup File** button:
