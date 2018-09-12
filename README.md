@@ -162,7 +162,11 @@ Remove any residue files by executing `apt autoclean && apt autoremove`:
 
 #### Create a New User
 
-No other command in this tutorial should be executed as `root` (except the ones below to create a new user). Create a new user and add it to the `sudo` group so you'll have administrative privileges:
+No other command in this tutorial should be executed as `root`, except the ones below to create a new user.
+
+> **Note**: It's good practice to run your applications on a user level (as they were meant to) and leave administrative tasks to the root user. Your system is vulnerable to exploits and attacks when running applications as root, in consequence this can lead to files being deleted or complete loss of your system (either an attacker took over or your system is no longer functional).
+
+Create a new user and add it to the `sudo` group so you'll have administrative privileges:
 
 - Create the user, replacing `example_user` with a username of your choice: `adduser example_user` (you'll be prompt to assign a password and enter information about the user)
 - Add the user to the `sudo` group, replacing `example_user` with the username of the user you previously created: `adduser example_user sudo`
