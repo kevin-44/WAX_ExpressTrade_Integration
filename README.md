@@ -164,7 +164,7 @@ Remove any residue files by executing `apt autoclean && apt autoremove`:
 
 No other command in this tutorial should be executed as `root`, besides the ones below to create a new user.
 
-> **Note**: It's good practice to run your applications on a user level (as they were meant to) and leave administrative tasks to the root user. Your system is vulnerable to exploits and attacks when running applications as root, in consequence this can lead to files being deleted or complete loss of your system (either an attacker took over or your system is no longer functional).
+> **Note**: It's good practice to run your applications on a user level (as they were meant to) and leave administrative tasks to the root user. Your system is vulnerable to exploits and attacks when running applications as root, in consequence this can lead to files being deleted or complete loss of your system (either an attacker took over or your system is no longer functional). For maximum security, look into configuring SSH key based secure authentication.
 
 Create a new user and add it to the `sudo` group so you'll have administrative privileges:
 
