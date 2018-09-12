@@ -232,6 +232,7 @@ Moving forward, it's now time to configure the name-based virtual hosts so that 
 
 * Disable the default Apache virtual host: `sudo a2dissite *default`
 * Create the necessary folders for your website, replacing `example.com` with your domain name: `sudo mkdir -p /var/www/html/example.com/{includes,public_html}`
+* Create the virtual host file for your website, replacing `example.com` with your domain name: `sudo nano /etc/apache2/sites-available/example.com.conf`
 
 Finally, restart Apache for the changes to take effect:
 
