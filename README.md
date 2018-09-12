@@ -99,7 +99,7 @@ Throughout this tutorial, there will be several **notes** to give you a brief in
 
 - (None)
 
-Know of an extension that isn't listed above? Open an [issue](https://github.com/Kevin-Reinke/WAX_ExpressTrade_Integration/issues/new) and it will be added based on its functionality and the quality of its code!
+Know of an extension that isn't listed above? Open an [issue](https://github.com/Kevin-Reinke/WAX_ExpressTrade_Integration/issues/new) and it will be added based on its functionality and quality!
 
 > **Note**: Extensions prefixed with **official** were released by [OPSkins](https://opskins.com).
 
