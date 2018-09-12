@@ -364,4 +364,6 @@ Finally, restart Apache for the changes to take effect:
 
 ## Create an OPSkins Account
 
+An [OPSkins](https://opskins.com) account is required for some endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api); therefore, it is recommended that you create one if you don't have one already - especially useful for testing purposes!
+
 ## Install Dependencies
