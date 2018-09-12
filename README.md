@@ -52,7 +52,7 @@
 			* [Register a Domain & Configure Name-based Virtual Hosts](#register-a-domain--configure-name-based-virtual-hosts)
 	* [Set up an OPSkins Account](#set-up-an-opskins-account)
 		* [Create an Account](#create-an-account)
-		* [Enable 2FA (Two Factor Authentication)](#enable-2fa-two-factor-authentication)
+		* [Enable 2FA (Two-Factor Authentication)](#enable-2fa-two--factor-authentication)
 	* [Install Dependencies](#install-dependencies-1)
 * [Node.js](#nodejs-1)
 	* [Beginners](#beginners-1)
@@ -65,7 +65,7 @@
 			* [Register a Domain & Configure Name-based Virtual Hosts](#register-a-domain--configure-name-based-virtual-hosts-1)
 	* [Set up an OPSkins Account](#set-up-an-opskins-account-1)
 		* [Create an Account](#create-an-account-1)
-		* [Enable 2FA (Two Factor Authentication)](#enable-2fa-two-factor-authentication-1)
+		* [Enable 2FA (Two-Factor Authentication)](#enable-2fa-two--factor-authentication-1)
 	* [Install Dependencies](#install-dependencies-3)
 
 # Overview
@@ -407,9 +407,11 @@ You can create an OPSkins account by a) [signing in through Steam for the first 
 
 <img alt = "OPSkins - Register" src = "img/opskins_register.png">
 
-### Enable 2FA (Two Factor Authentication)
+### Enable 2FA (Two-Factor Authentication)
 
-Some endpoints and [WAX ExpressTrade](https://trade.opskins.com) itself require **2FA** (*Two Factor Authentication*) to be enabled on your account, you can do this with the help of your mobile device and the Google Authenticator app; however, it is recommended that you use any other app (this could also be a browser extension for instance - [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?utm_source=chrome-ntp-icon) is recommended) that shows you your `secret` as it is also required in some cases in order to write fully automated code.
+Some endpoints and [WAX ExpressTrade](https://trade.opskins.com) itself require **2FA** (*Two-Factor Authentication*) to be enabled on your account, you can do this with the help of your mobile device and the Google Authenticator app; however, it is recommended that you use any other app (this could also be a browser extension for instance - [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?utm_source=chrome-ntp-icon) is recommended) that shows you your `secret` as it is also required in some cases in order to write fully automated code.
+
+Go to your [OPSkins account security page](https://opskins.com/?loc=store_account#collapseSec) and press the blue `Enable Two-Factor Authentication` button:
 
 On the Authenticator extension, click on the **settings icon** located on the top left corner, hit the **Export / Import** option and then press the **Download Backup File** button:
 
@@ -462,6 +464,6 @@ The only value you need from the `.json` file is `secret` (in case of the exampl
 
 ### Create an Account
 
-### Enable 2FA (Two Factor Authentication)
+### Enable 2FA (Two-Factor Authentication)
 
 ## Install Dependencies
