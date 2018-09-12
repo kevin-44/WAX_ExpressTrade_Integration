@@ -33,7 +33,7 @@
 
 #### Table of Contents
 
-* [Node.js](#nodejs)
+* [PHP](#php)
 	* [Beginners](#beginners)
 		* [Local Environment](#local-environment)
 		* [Production Environment](#production-environment)
@@ -46,7 +46,7 @@
 		* [Create an Account](#create-an-account)
 		* [Enable 2FA (Two Factor Authentication)](#enable-2fa-two-factor-authentication)
 	* [Install Dependencies](#install-dependencies-1)
-* [PHP](#php)
+* [Node.js](#nodejs)
 	* [Beginners](#beginners-1)
 		* [Local Environment](#local-environment-1)
 		* [Production Environment](#production-environment-1)
@@ -60,43 +60,17 @@
 		* [Enable 2FA (Two Factor Authentication)](#enable-2fa-two-factor-authentication-1)
 	* [Install Dependencies](#install-dependencies-3)
 
-# Node.js
-
-## Beginners
-
-### Local Environment
-
-### Production Environment
-
-#### Order/Create a VPS
-
-#### Log In & Prepare Your VPS
-
-#### Create a New User
-
-#### Install Dependencies
-
-#### Register a Domain & Configure Name-based Virtual Hosts
-
-## Set up an OPSkins Account
-
-### Create an Account
-
-### Enable 2FA (Two Factor Authentication)
-
-## Install Dependencies
-
 # PHP
 
 ## Beginners
 
-Before anything, you will need to install a **web server** and **PHP**. If you already know how to do this and you're not interested in registering a domain alongside the configuration that comes with it, skip to the [next step](#install-dependencies-3). Otherwise, click [here](#register-a-domain--configure-name-based-virtual-hosts-1) for information related to registering a domain and its configuration!
+Before anything, you will need to install a **web server** and **PHP**. If you already know how to do this and you're not interested in registering a domain alongside the configuration that comes with it, skip to the [next step](#install-dependencies-1). Otherwise, click [here](#register-a-domain--configure-name-based-virtual-hosts) for information related to registering a domain and its configuration!
 
 > **Note**: Instructions related to setting up a **MySQL server** won't be addressed in this tutorial; however, it's recommended that you go forward with the process if you plan on creating a functional website that serves user accounts, saves their settings and/or stores any other data in general.
 
 ### Local Environment
 
-If you aren't interested in setting up an environment for local development, you can skip directly to [setting up a production environment](#production-environment-1) (where you can publish your website so anyone can visit it) right off the bat.
+If you aren't interested in setting up an environment for local development, you can skip directly to [setting up a production environment](#production-environment) (where you can publish your website so anyone can visit it) right off the bat.
 
 ---
 
@@ -189,7 +163,7 @@ Any website you create should be placed in `/var/www/html`. You can access one o
 
 #### Register a Domain & Configure Name-based Virtual Hosts
 
-Your website (or at least the `Apache2 Ubuntu Default Page`) should be accessible at this point. It's recommended that you assign a domain to your website if you plan on having visitors from all around the world; however, it isn't technically necessary - your visitors would just have trouble remembering your VPS' IP address! If you do not wish to assign a domain to your website, skip to the [next step](#install-dependencies-3).
+Your website (or at least the `Apache2 Ubuntu Default Page`) should be accessible at this point. It's recommended that you assign a domain to your website if you plan on having visitors from all around the world; however, it isn't technically necessary - your visitors would just have trouble remembering your VPS' IP address! If you do not wish to assign a domain to your website, skip to the [next step](#install-dependencies-2).
 
 ---
 
@@ -326,7 +300,7 @@ Finally, restart Apache for the changes to take effect:
 
 ---
 
-#### If you purchased an SSL certificate, click [here](#install-dependencies-3) to continue.
+#### If you purchased an SSL certificate, click [here](#install-dependencies-2) to continue.
 
 Configure the name-based virtual hosts so that your system knows what to do when someone visits your domain! For that:
 
@@ -418,5 +392,31 @@ A `.json` file will start to download, open it and you'll see a similar array as
 ```
 
 The only value you need from the `.json` file is `secret` (in case of the example above, that value is `VIYPXSTVYCV6KXF7`) - keep the value in hand as you may need it depending on the features you plan on adding to your website!
+
+## Install Dependencies
+
+# Node.js
+
+## Beginners
+
+### Local Environment
+
+### Production Environment
+
+#### Order/Create a VPS
+
+#### Log In & Prepare Your VPS
+
+#### Create a New User
+
+#### Install Dependencies
+
+#### Register a Domain & Configure Name-based Virtual Hosts
+
+## Set up an OPSkins Account
+
+### Create an Account
+
+### Enable 2FA (Two Factor Authentication)
 
 ## Install Dependencies
