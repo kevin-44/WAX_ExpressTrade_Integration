@@ -43,6 +43,7 @@
 			* [Install Dependencies](#install-dependencies)
 			* [Register a Domain & Configure Name-based Virtual Hosts](#register-a-domain--configure-name-based-virtual-hosts)
 	* [Set up an OPSkins Account](#set-up-an-opskins-account)
+		* [Create an Account](#create-an-account)
 	* [Install Dependencies](#install-dependencies-1)
 * [PHP](#php)
 	* [Beginners](#beginners-1)
@@ -54,6 +55,7 @@
 			* [Install Dependencies](#install-dependencies-2)
 			* [Register a Domain & Configure Name-based Virtual Hosts](#register-a-domain--configure-name-based-virtual-hosts-1)
 	* [Set up an OPSkins Account](#set-up-an-opskins-account-1)
+		* [Create an Account](#create-an-account)
 	* [Install Dependencies](#install-dependencies-3)
 
 # Node.js
@@ -75,6 +77,8 @@
 #### Register a Domain & Configure Name-based Virtual Hosts
 
 ## Set up an OPSkins Account
+
+### Create an Account
 
 ## Install Dependencies
 
@@ -367,6 +371,8 @@ Finally, restart Apache for the changes to take effect:
 An [OPSkins](https://opskins.com) account is required for some endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api); therefore, it is recommended that you create one! There are two ways you can create an account, by a) [signing in through Steam on OPSkins for the first time](https://opskins.com/?loc=login) or b) [entering your information into a form](https://opskins.com/?loc=login&register).
 
 > **Note**: Although you can invoke the WAX ExpressTrade API without an OPSkins account, you are limiting the number of endpoints available to you.
+
+### Create an Account
 
 Some endpoints and [WAX ExpressTrade](https://trade.opskins.com) itself require **2FA** (*Two Factor Authentication*) to be enabled on your account, you can do this with the help of your mobile device and the Google Authenticator app; however, it is recommended that you use any other app (this could also be a browser extension for instance - [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?utm_source=chrome-ntp-icon) is recommended) that shows you your `secret` as it is also required in some cases in order to write fully automated code.
 
