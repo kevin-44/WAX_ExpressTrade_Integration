@@ -234,39 +234,39 @@ Moving forward, it's now time to configure the name-based virtual hosts so that 
 * Create the necessary folders for your website, replacing `example.com` with your domain name: `sudo mkdir -p /var/www/html/example.com/{includes,public_html}`
 * Create the virtual host file for your website, replacing `example.com` with your domain name: `sudo nano /etc/apache2/sites-available/example.com.conf` (the text editor will prompt, follow the next step below)
 * Paste the following configuration, replacing `example.com` with your domain name, `example_com_key` with the name of your `.key` file, `example_com_crt` with the name of your `.crt` file and `example_com_ca_bundle` with the name of your `.ca-bundle` file:
-```
-# domain: example.com
+	```
+	# domain: example.com
 
-<VirtualHost *:80>
-	ServerName example.com
-	ServerAlias www.example.com
+	<VirtualHost *:80>
+		ServerName example.com
+		ServerAlias www.example.com
 
-	Redirect permanent / https://www.example.com/
-</VirtualHost>
+		Redirect permanent / https://www.example.com/
+	</VirtualHost>
 
-<VirtualHost *:443>
-	ServerName example.com
+	<VirtualHost *:443>
+		ServerName example.com
 
-	SSLEngine on
-	SSLCertificateKeyFile /etc/ssl/private/example_com_key.key
-	SSLCertificateFile /etc/ssl/certs/example_com_crt.crt
-	SSLCACertificateFile /etc/ssl/certs/example_com_ca_bundle.ca-bundle
+		SSLEngine on
+		SSLCertificateKeyFile /etc/ssl/private/example_com_key.key
+		SSLCertificateFile /etc/ssl/certs/example_com_crt.crt
+		SSLCACertificateFile /etc/ssl/certs/example_com_ca_bundle.ca-bundle
 
-	Redirect permanent / https://www.example.com/
-</VirtualHost>
+		Redirect permanent / https://www.example.com/
+	</VirtualHost>
 
-<VirtualHost *:443>
-	ServerName www.example.com
+	<VirtualHost *:443>
+		ServerName www.example.com
 
-	SSLEngine on
-	SSLCertificateKeyFile /etc/ssl/private/example_com_key.key
-	SSLCertificateFile /etc/ssl/certs/example_com_crt.crt
-	SSLCACertificateFile /etc/ssl/certs/example_com_ca_bundle.ca-bundle
+		SSLEngine on
+		SSLCertificateKeyFile /etc/ssl/private/example_com_key.key
+		SSLCertificateFile /etc/ssl/certs/example_com_crt.crt
+		SSLCACertificateFile /etc/ssl/certs/example_com_ca_bundle.ca-bundle
 
-	DirectoryIndex index.html index.php
-	DocumentRoot /var/www/html/example.com/public_html
-</VirtualHost>
-```
+		DirectoryIndex index.html index.php
+		DocumentRoot /var/www/html/example.com/public_html
+	</VirtualHost>
+	```
 
 Finally, restart Apache for the changes to take effect:
 
