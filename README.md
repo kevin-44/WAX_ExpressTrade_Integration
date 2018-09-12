@@ -441,7 +441,7 @@ Enter the current valid 2FA code shown on Authenticator:
 
 <img alt = "OPSkins - Enable 2FA Step 7" src = "img/opskins_enable_2fa_step_7.png">
 
-On the Authenticator extension, click on the **settings icon** located on the top left corner, hit the **Export / Import** option and then press the **Download Backup File** button:
+On the Authenticator extension, click on the `Settings` icon located on the top left corner, hit the `Export / Import` option, and then press the `Download Backup File` button:
 
 <img alt = "Authenticator - Export Backup File Step 1" src = "img/authenticator_export_backup_file_step_1.png">
 
