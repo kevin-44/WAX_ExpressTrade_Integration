@@ -55,7 +55,7 @@
 			* [Install Dependencies](#install-dependencies-2)
 			* [Register a Domain & Configure Name-based Virtual Hosts](#register-a-domain--configure-name-based-virtual-hosts-1)
 	* [Set up an OPSkins Account](#set-up-an-opskins-account-1)
-		* [Create an Account](#create-an-account)
+		* [Create an Account](#create-an-account-1)
 	* [Install Dependencies](#install-dependencies-3)
 
 # Node.js
