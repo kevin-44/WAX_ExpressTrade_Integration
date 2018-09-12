@@ -411,7 +411,9 @@ You can create an OPSkins account by a) [signing in through Steam for the first 
 
 Some [endpoints](https://github.com/OPSkins/trade-opskins-api) and [WAX ExpressTrade](https://trade.opskins.com) itself require **2FA** (*Two-Factor Authentication*) to be enabled on your account, you can do this with the help of your mobile device and the Google Authenticator app; however, it is recommended that you use any other app (this could also be a browser extension for instance - [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?utm_source=chrome-ntp-icon) is recommended) that shows you your `secret` as it is also required in some cases in order to write fully automated code.
 
-Go to your [OPSkins account security page](https://opskins.com/?loc=store_account#collapseSec) and press the blue `Enable Two-Factor Authentication` button:
+Go to your [OPSkins account security page](https://opskins.com/?loc=store_account#collapseSec) and press the `Enable Two-Factor Authentication` button:
+
+<img alt = "OPSkins - Enable 2FA Step 1" src = "img/opskins_enable_2fa_step_1.png">
 
 On the Authenticator extension, click on the **settings icon** located on the top left corner, hit the **Export / Import** option and then press the **Download Backup File** button:
 
