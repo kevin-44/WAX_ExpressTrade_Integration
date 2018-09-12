@@ -433,7 +433,7 @@ After submitting the one-time code, another modal will prompt. On the Authentica
 
 <img alt = "OPSkins - Enable 2FA Step 5" src = "img/opskins_enable_2fa_step_5.png">
 
-If the selection of the barcode was successful, a browser alert should prompt stating that it was added:
+If the selection of the barcode was successful, a browser alert should prompt stating that your account has been added:
 
 <img alt = "OPSkins - Enable 2FA Step 6" src = "img/opskins_enable_2fa_step_6.png">
 
@@ -454,7 +454,7 @@ A `.json` file will start to download, open it and you'll see a similar array as
 ```
 {
 	"3e44a51d4b5cad98c34f5f3658e35c73": {
-		"account": "72539196284342175",
+		"account": "76569192284382175",
 		"counter": 0,
 		"encrypted": false,
 		"hash": "3e44a51d4b5cad98c34f5f3658e35c73",
