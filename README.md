@@ -302,6 +302,7 @@ Moving forward, it's now time to configure the name-based virtual hosts so that 
 	```
 
 * Save the changes to the virtual host configuration file by pressing **CTRL** + **X**, hitting **Y** and then pressing **ENTER** to confirm.
+* Enable your website by creating a symbolic link to your virtual host configuration file, replacing `example.com` with your domain name: `sudo a2ensite example.com.conf`
 
 Finally, restart Apache for the changes to take effect:
 
