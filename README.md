@@ -234,6 +234,7 @@ Moving forward, it's now time to configure the name-based virtual hosts so that 
 * Create the necessary folders for your website, replacing `example.com` with your domain name: `sudo mkdir -p /var/www/html/example.com/{includes,public_html}`
 * Create the virtual host file for your website, replacing `example.com` with your domain name: `sudo nano /etc/apache2/sites-available/example.com.conf` (the text editor will prompt, follow the next step below)
 * Paste the following configuration, replacing `example.com` with your domain name, `example_com_key` with the name of your `.key` file, `example_com_crt` with the name of your `.crt` file and `example_com_ca_bundle` with the name of your `.ca-bundle` file:
+
 	```
 	# domain: example.com
 
