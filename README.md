@@ -210,9 +210,11 @@ Confirm that the selected server is correct and hit `Next`:
 
 <img alt = "NameCheap SSL - Confirm Server" src = "img/namecheap_ssl_confirm_server.png">
 
-Select your preferred validation method and follow any other given steps:
+Select your preferred validation method:
 
 <img alt = "NameCheap SSL - Validation Method" src = "img/namecheap_ssl_validation_method.png">
+
+Go forward with the selected domain ownership validation process. At the end, typically two files in a compressed archive will be sent to you via email - download it!
 
 You will then need to enable SSL mode so that Apache is able to run an encrypted HTTPS connection:
 
