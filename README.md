@@ -202,9 +202,9 @@ It's great that you have decided to install an SSL certificate in order to prote
 
 `openssl req -new -newkey rsa:2048 -nodes -keyout server.key -out server.csr` (you'll be prompt to enter information)
 
-Once you have entered all of the requested information, you should have a `.csr` and `.key` file in the path where you executed the command. Open the `.csr` file with `nano` (install it by executing `sudo apt install nano` if it doesn't come pre-installed), copy its content, then go to your provider's dashboard and start the process of activating your SSL certificate (you can find your SSL certificate listed under `Products` on NameCheap):
+Once you have entered all of the requested information, you should have a `.csr` and `.key` file in the path where you executed the command. Open the `.csr` file with `nano` (install it by executing `sudo apt install nano` if it doesn't come pre-installed), copy its content, then go to your provider's dashboard and start the process of activating your SSL certificate (you can find your SSL certificate listed under `Products` on NameCheap). Enter what you copied from the `.csr` file and hit `Next`:
 
-<img alt = "NameCheap - Activate SSL Certificate" src = "img/namecheap_activate_ssl_certificate.png">
+<img alt = "NameCheap - Enter CSR" src = "img/namecheap_enter_csr.png">
 
 You will then need to enable SSL mode so that Apache is able to run an encrypted HTTPS connection:
 
