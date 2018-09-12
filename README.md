@@ -374,7 +374,7 @@ Finally, restart Apache for the changes to take effect:
 
 An [OPSkins](https://opskins.com) account is required for some endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api); therefore, it is recommended that you create one!
 
-> **Note**: Although you can invoke the WAX ExpressTrade API without an OPSkins account, you are limiting the number of endpoints available to you. Features such as automatically receiving the **$0.25** commission per case from the [ICase](https://github.com/OPSkins/trade-opskins-api/tree/master/ICase) and [ICaseSite](https://github.com/OPSkins/trade-opskins-api/tree/master/ICaseSite) interface is also not possible without an OPSkins account.
+> **Note**: Although you can invoke the WAX ExpressTrade API without an OPSkins account, you are limiting the number of endpoints available to you. Features such as automatically receiving the **$0.25** commission per case from the [ICase](https://github.com/OPSkins/trade-opskins-api/tree/master/ICase)/[ICaseSite](https://github.com/OPSkins/trade-opskins-api/tree/master/ICaseSite) interface is also not possible without an OPSkins account.
 
 ### Create an Account
 
