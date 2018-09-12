@@ -99,6 +99,8 @@ There are no other extensions that simplify the process of invoking the WAX Expr
 
 There are no other extensions that simplify the process of invoking the WAX ExpressTrade API.
 
+> **Note**: Know of a extension that isn't listed above? Open a [new issue](https://github.com/Kevin-Reinke/WAX_ExpressTrade_Integration/issues/new) and it will be added!
+
 # PHP
 
 ## Beginners
