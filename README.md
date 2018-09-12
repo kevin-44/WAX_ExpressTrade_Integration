@@ -42,6 +42,7 @@
 			* [Create a New User](#create-a-new-user)
 			* [Install Dependencies](#install-dependencies)
 			* [Register a Domain & Configure Name-based Virtual Hosts](#register-a-domain--configure-name-based-virtual-hosts)
+	* [Create an OPSkins Account](#create-an-opskins-account)
 	* [Install Dependencies](#install-dependencies-1)
 * [PHP](#php)
 	* [Beginners](#beginners-1)
@@ -52,6 +53,7 @@
 			* [Create a New User](#create-a-new-user-1)
 			* [Install Dependencies](#install-dependencies-2)
 			* [Register a Domain & Configure Name-based Virtual Hosts](#register-a-domain--configure-name-based-virtual-hosts-1)
+	* [Create an OPSkins Account](#create-an-opskins-account-1)
 	* [Install Dependencies](#install-dependencies-3)
 
 # Node.js
@@ -71,6 +73,8 @@
 #### Install Dependencies
 
 #### Register a Domain & Configure Name-based Virtual Hosts
+
+## Create an OPSkins Account
 
 ## Install Dependencies
 
@@ -357,5 +361,7 @@ Configure the name-based virtual hosts so that your system knows what to do when
 Finally, restart Apache for the changes to take effect:
 
 `sudo systemctl restart apache2`
+
+## Create an OPSkins Account
 
 ## Install Dependencies
