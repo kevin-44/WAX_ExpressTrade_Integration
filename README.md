@@ -222,7 +222,7 @@ Go forward with the selected domain ownership validation process. At the end, ty
 
 <img alt = "FileZilla - Upload SSL Reference" src = "img/filezilla_upload_ssl_reference.png">
 
-> **Note**: The **username** and **password** are the same as to your VPS log in credentials.
+> **Note**: The **username** and **password** field on the FTP client correspond to your VPS log in credentials.
 
 You will then need to enable SSL mode so that Apache is able to run an encrypted HTTPS connection:
 
