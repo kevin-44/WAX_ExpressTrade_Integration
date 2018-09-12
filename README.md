@@ -208,7 +208,7 @@ Enter what you copied from the `.csr` file:
 
 <img alt = "NameCheap SSL - Enter CSR" src = "img/namecheap_ssl_enter_csr.png">
 
-Confirm that the selected server is correct (should be/include **Apache** if you're following the steps in this tutorial):
+Confirm that the selected server is correct (should be/include **Apache** if you've been following the steps in this tutorial):
 
 <img alt = "NameCheap SSL - Confirm Server" src = "img/namecheap_ssl_confirm_server.png">
 
@@ -226,7 +226,10 @@ You will then need to enable SSL mode so that Apache is able to run an encrypted
 
 `sudo a2enmod ssl`
 
-As printed in the SSH client, you must restart Apache afterwards:
+Moving forward, it's now time to configure the name-based virtual hosts so that your VPS knows what to do when someone visits your domain! For that:
+*  
+
+Finally, restart Apache for the changes to take effect:
 
 `sudo systemctl restart apache2`
 
