@@ -427,6 +427,14 @@ A modal will prompt asking you to enter a code that was sent to your email. Get 
 
 <img alt = "OPSkins - Enable 2FA Step 3" src = "img/opskins_enable_2fa_step_3.png">
 
+On the Authenticator browser extension (or with the 2FA app/extension of your choice - instructions may vary), click on the `Scan QR Code` icon located on the top right corner, select the barcode with your cursor (holding down left click on your mouse), and then let go:
+
+<img alt = "OPSkins - Enable 2FA Step 4" src = "img/opskins_enable_2fa_step_4.png">
+
+<img alt = "OPSkins - Enable 2FA Step 5" src = "img/opskins_enable_2fa_step_5.png">
+
+<img alt = "OPSkins - Enable 2FA Step 6" src = "img/opskins_enable_2fa_step_6.png">
+
 On the Authenticator extension, click on the **settings icon** located on the top left corner, hit the **Export / Import** option and then press the **Download Backup File** button:
 
 <img alt = "Authenticator - Export Backup File Step 1" src = "img/authenticator_export_backup_file_step_1.png">
@@ -439,14 +447,14 @@ A `.json` file will start to download, open it and you'll see a similar array as
 
 ```
 {
-	"f4d833fe4c48a77feec7f98519b4fcdc": {
-		"account": "example_user",
+	"3e44a51d4b5cad98c34f5f3658e35c73": {
+		"account": "72539196284342175",
 		"counter": 0,
 		"encrypted": false,
-		"hash": "f4d833fe4c48a77feec7f98519b4fcdc",
+		"hash": "3e44a51d4b5cad98c34f5f3658e35c73",
 		"index": 0,
 		"issuer": "OPSkins",
-		"secret": "VIYPXSTVYCV6KXF7",
+		"secret": "CUPQTTSAL5XIDUTS",
 		"type": "totp"
 	}
 }
