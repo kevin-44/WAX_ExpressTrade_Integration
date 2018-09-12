@@ -86,7 +86,9 @@ Throughout this tutorial, there will be several **notes** to give you a brief in
 
 #### Other
 
-- (There are no other extensions that simplify the process of invoking the WAX ExpressTrade API for PHP)
+```
+There are no other extensions that simplify the process of invoking the WAX ExpressTrade API for PHP
+```
 
 ### Node.js
 
