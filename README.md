@@ -370,4 +370,23 @@ An [OPSkins](https://opskins.com) account is required for some endpoints of the 
 
 Some endpoints and [WAX ExpressTrade](https://trade.opskins.com) itself require **2FA** (*Two Factor Authentication*) to be enabled on your account, you can do this with the help of your mobile device and the Google Authenticator app; however, it is recommended that you use any other app (this could also be a browser extension for instance - [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?utm_source=chrome-ntp-icon) is recommended) that shows you your `secret` as it is also required in some cases.
 
+On the Authenticator extension, click on the settings icon located on the top left corner, hit the **Export / Import** option and then press the **Download Backup File** button. A `.json` file will start to download, open it and you'll see a similar array as to the one below:
+
+```
+{
+	"f4d833fe4c48a77feec7f98519b4fcdc": {
+		"account": "example_user",
+		"counter": 0,
+		"encrypted": false,
+		"hash": "f4d833fe4c48a77feec7f98519b4fcdc",
+		"index": 0,
+		"issuer": "OPSkins",
+		**"secret": "VIYPXSTVYCV6KXF7"**,
+		"type": "totp"
+	}
+}
+```
+
+As highlighted above, that's truly the only value we need from the `.json` file (e.g. `VIYPXSTVYCV6KXF7`) - keep the value in hand as you may need it!
+
 ## Install Dependencies
