@@ -206,7 +206,7 @@ Once you have entered all of the requested information, you should have a `.csr`
 
 <img alt = "NameCheap SSL - Enter CSR" src = "img/namecheap_ssl_enter_csr.png">
 
-Confirm the server is right and hit `Next`:
+Confirm the selected server is correct and hit `Next`:
 
 <img alt = "NameCheap SSL - Confirm Server" src = "img/namecheap_ssl_confirm_server.png">
 
