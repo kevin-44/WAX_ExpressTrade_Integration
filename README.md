@@ -103,6 +103,8 @@ Know of an extension that isn't listed above? [Open an issue](https://github.com
 
 > **Note**: Extensions prefixed with **official** were released by [OPSkins](https://opskins.com).
 
+> **Note**: Although there are many different extensions you can use (not limited to the list above) to invoke the WAX ExpressTrade API, the first extension under **Recommended** will be used in this tutorial.
+
 # PHP
 
 ## Beginners
