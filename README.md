@@ -312,6 +312,50 @@ Finally, restart Apache for the changes to take effect:
 
 #### If you purchased an SSL certificate, click [here](#install-dependencies-3) to continue.
 
-Moving forward, go back to PuTTY to configure the name-based virtual hosts so that your VPS knows what to do when someone visits your domain.
+Configure the name-based virtual hosts so that your system knows what to do when someone visits your domain! For that:
+
+* Disable the default Apache virtual host: `sudo a2dissite *default`
+* Create the necessary folders for your website, replacing `example.com` with your domain name: `sudo mkdir -p /var/www/html/example.com/{includes,public_html}`
+* Create the virtual host file for your website, replacing `example.com` with your domain name: `sudo nano /etc/apache2/sites-available/example.com.conf` (the text editor will prompt, follow the step of your choice below)
+* Paste the following configuration, replacing `example.com` with your domain name, `example_com_key` with the name of your `.key` file, `example_com_crt` with the name of your `.crt` file, and `example_com_ca_bundle` with the name of your `.ca-bundle` file:
+
+	```
+	<VirtualHost *:80>
+		ServerName example.com
+
+		Redirect permanent / http://www.example.com/
+	</VirtualHost>
+
+	<VirtualHost *:80>
+		ServerName www.example.com
+
+		DirectoryIndex index.html index.php
+		DocumentRoot /var/www/html/example.com/public_html
+	</VirtualHost>
+	```
+
+* **(Optional)** The previous configuration will redirect requests to the root directory (`example.com`) to the `www` subdomain (`www.example.com`) while enforcing the `HTTPS` protocol. If you'd like the previous reversed (`www.example.com` redirects to `example.com`), paste the following instead (just remember to make the same replacements):
+
+	```
+	<VirtualHost *:80>
+		ServerName www.example.com
+
+		Redirect permanent / http://example.com/
+	</VirtualHost>
+
+	<VirtualHost *:80>
+		ServerName example.com
+
+		DirectoryIndex index.html index.php
+		DocumentRoot /var/www/html/example.com/public_html
+	</VirtualHost>
+	```
+
+* Save the changes to the virtual host configuration file by pressing **CTRL** + **X**, hitting **Y** and then pressing **ENTER** to confirm.
+* Enable your website by creating a symbolic link to your virtual host configuration file, replacing `example.com` with your domain name: `sudo a2ensite example.com.conf`
+
+Finally, restart Apache for the changes to take effect:
+
+`sudo systemctl restart apache2`
 
 ## Install Dependencies
