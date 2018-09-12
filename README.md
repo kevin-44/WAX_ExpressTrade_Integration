@@ -36,7 +36,11 @@
 * [Overview](#overview)
 	* [Extensions](#extensions)
 		* [PHP](#php)
+			* [Recommended](#recommended)
+			* [Other](#other)
 		* [Node.js](#nodejs)
+			* [Recommended](#recommended-1)
+			* [Other](#other-1)
 * [PHP](#php-1)
 	* [Beginners](#beginners)
 		* [Local Environment](#local-environment)
@@ -76,7 +80,15 @@ Throughout this tutorial, there will be several **notes** to give you a brief in
 
 ### PHP
 
+#### Recommended
+
+#### Other
+
 ### Node.js
+
+#### Recommended
+
+#### Other
 
 # PHP
 
