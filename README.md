@@ -368,4 +368,6 @@ An [OPSkins](https://opskins.com) account is required for some endpoints of the 
 
 > **Note**: Although you can invoke the WAX ExpressTrade API without an OPSkins account, you are limiting the number of endpoints available to you.
 
+Some endpoints and [WAX ExpressTrade](https://trade.opskins.com) itself require 2FA (*Two Factor Authentication*) to be enabled on your account, you can do this with the help of your mobile device and the Google Authenticator app; however, it is recommended that you use any other app that shows you your `secret` as it is also required in some cases - so that everything is automated.
+
 ## Install Dependencies
