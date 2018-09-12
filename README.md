@@ -63,7 +63,7 @@
 
 # Overview
 
-There is no official **SDK** (*Software Development Kit*) for the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api) in PHP nor Node.js; however, there are extensions you can make use of that contain all the tools needed to invoke the API! Depending on the programming language you prefer, one of them is going to be your base to integrate the WAX ExpressTrade API into your website (the list can be found below).
+There is no official **SDK** (*Software Development Kit*) for PHP nor Node.js; however, there are extensions you can make use of that contain all the tools needed to invoke the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api)! Depending on the programming language you prefer, one of them is going to be your base to integrate the WAX ExpressTrade API into your website (the list can be found below).
 
 With the integration of the WAX ExpressTrade API, you can create a VGO case opening website (such as [UnlockVGO](https://www.unlockvgo.com)) and earn **$0.25** per case opened, set up a trading website where you can also profit from transactions, etc.
 
