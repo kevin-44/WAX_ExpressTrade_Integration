@@ -64,7 +64,7 @@
 
 ## Beginners
 
-Before anything, you will need to install a **web server** and **PHP**. If you already know how to do this and you're not interested in registering a domain alongside the configuration that comes with it, skip to the [next step](#install-dependencies-1). Otherwise, click [here](#register-a-domain--configure-name-based-virtual-hosts) for information related to registering a domain and its configuration!
+Before anything, you will need to install a **web server** and **PHP**. If you already know how to do this and you're not interested in registering a domain alongside the configuration that comes with it, skip to the [next step](#set-up-an-opskins-account). Otherwise, click [here](#register-a-domain--configure-name-based-virtual-hosts) for information related to registering a domain and its configuration!
 
 > **Note**: Instructions related to setting up a **MySQL server** won't be addressed in this tutorial; however, it's recommended that you go forward with the process if you plan on creating a functional website that serves user accounts, saves their settings and/or stores any other data in general.
 
