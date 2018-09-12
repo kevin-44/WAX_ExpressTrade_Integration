@@ -82,7 +82,11 @@ Throughout this tutorial, there will be several **notes** to give you a brief in
 
 #### Recommended
 
+- [php-oauth](https://github.com/OPSkins/php-oauth) (specified specifically for OPSkins OAuth; however, it can be used to invoke all endpoints)
+
 #### Other
+
+There are no other extensions that simplify the process of invoking the WAX ExpressTrade API.
 
 ### Node.js
 
