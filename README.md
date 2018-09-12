@@ -275,8 +275,8 @@ Moving forward, it's now time to configure the name-based virtual hosts so that 
 	# domain: example.com
 
 	<VirtualHost *:80>
-		ServerName www.example.com
-		ServerAlias example.com
+		ServerName example.com
+		ServerAlias www.example.com
 
 		Redirect permanent / https://example.com/
 	</VirtualHost>
