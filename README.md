@@ -417,7 +417,7 @@ Some [endpoints](https://github.com/OPSkins/trade-opskins-api) and [WAX ExpressT
 
 ---
 
-Go to your [OPSkins account security page](https://opskins.com/?loc=store_account#collapseSec) and press the `Enable Two-Factor Authentication` button:
+Go to your [OPSkins account security page](https://opskins.com/?loc=store_account#collapseSec) and hit the `Enable Two-Factor Authentication` button:
 
 <img alt = "OPSkins - Enable 2FA Step 1" src = "img/opskins_enable_2fa_step_1.png">
 
