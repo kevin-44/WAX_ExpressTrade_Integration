@@ -387,6 +387,6 @@ On the Authenticator extension, click on the settings icon located on the top le
 }
 ```
 
-The only value you need from the `.json` file is `secret` (in case of the example above, that value is `VIYPXSTVYCV6KXF7`) - keep the value in hand as you may need it depending on the features of your website!
+The only value you need from the `.json` file is `secret` (in case of the example above, that value is `VIYPXSTVYCV6KXF7`) - keep the value in hand as you may need it depending on the features you plan on adding to your website!
 
 ## Install Dependencies
