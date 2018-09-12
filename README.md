@@ -227,7 +227,9 @@ You will then need to enable SSL mode so that Apache is able to run an encrypted
 `sudo a2enmod ssl`
 
 Moving forward, it's now time to configure the name-based virtual hosts so that your VPS knows what to do when someone visits your domain! For that:
-*  
+
+* Disable the default Apache virtual host: `sudo a2dissite *default`
+* Create the necessary folders for your website, replacing `example.com` with your domain: sudo mkdir -p /var/www/html/example.com/{includes,public_html}
 
 Finally, restart Apache for the changes to take effect:
 
