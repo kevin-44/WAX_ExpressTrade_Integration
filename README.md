@@ -82,7 +82,7 @@ Throughout this tutorial, there will be several **notes** to give you a brief in
 
 #### Recommended
 
-- [php-oauth](https://github.com/OPSkins/php-oauth) (specified specifically for OPSkins OAuth; however, it can be used to invoke all endpoints)
+- `official` [php-oauth](https://github.com/OPSkins/php-oauth) (specified specifically for OPSkins OAuth; however, it can be used to invoke all endpoints)
 
 #### Other
 
