@@ -208,7 +208,7 @@ Enter what you copied from the `.csr` file:
 
 <img alt = "NameCheap SSL - Enter CSR" src = "img/namecheap_ssl_enter_csr.png">
 
-Confirm that the selected server is correct (Apache):
+Confirm that the selected server is correct (should be Apache):
 
 <img alt = "NameCheap SSL - Confirm Server" src = "img/namecheap_ssl_confirm_server.png">
 
