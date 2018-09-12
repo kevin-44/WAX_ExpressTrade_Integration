@@ -63,7 +63,7 @@
 
 # Overview
 
-OPSkins has released an **SDK** (*Software Development Kit*) for both [PHP](https://github.com/OPSkins/php-oauth) and [Node.js](https://github.com/OPSkins/node-opskins-api) - the PHP extension is specified to be specifically for [OPSkins OAuth](https://docs.opskins.com/public/en.html#oauth); however, it contains all the tools you need to invoke the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api)!
+[OPSkins](https://opskins.com) released an **SDK** (*Software Development Kit*) for both [PHP](https://github.com/OPSkins/php-oauth) and [Node.js](https://github.com/OPSkins/node-opskins-api) - the PHP extension is specified to be specifically for [OPSkins OAuth](https://docs.opskins.com/public/en.html#oauth); however, it contains all the tools you need to invoke the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api)!
 
 # PHP
 
