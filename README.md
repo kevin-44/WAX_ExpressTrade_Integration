@@ -166,8 +166,6 @@ No other command in this tutorial should be executed as `root` (besides the ones
 
 > **Note**: It's good practice to run your applications on a user level (as they were meant to) and leave administrative tasks to the root user. Your system is vulnerable to exploits and attacks when running applications as root, in consequence this can lead to files being deleted, breach of the root user's credentials or complete loss of your system. For even more security (e.g. preventing brute-force attacks), look into configuring SSH key based secure authentication.
 
----
-
 Create a new user and add it to the `sudo` group so you'll have administrative privileges:
 
 - Create the user, replacing `example_user` with a username of your choice: `adduser example_user` (you'll be prompt to assign a password and enter information about the user)
