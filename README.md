@@ -34,7 +34,10 @@
 #### Table of Contents
 
 * [Overview](#overview)
-* [PHP](#php)
+	* [Extensions](#extensions)
+		* [PHP](#php)
+		* [Node.js](#nodejs)
+* [PHP](#php-1)
 	* [Beginners](#beginners)
 		* [Local Environment](#local-environment)
 		* [Production Environment](#production-environment)
@@ -47,7 +50,7 @@
 		* [Create an Account](#create-an-account)
 		* [Enable 2FA (Two Factor Authentication)](#enable-2fa-two-factor-authentication)
 	* [Install Dependencies](#install-dependencies-1)
-* [Node.js](#nodejs)
+* [Node.js](#nodejs-1)
 	* [Beginners](#beginners-1)
 		* [Local Environment](#local-environment-1)
 		* [Production Environment](#production-environment-1)
@@ -69,7 +72,11 @@ With the integration of the WAX ExpressTrade API, you can create a VGO case open
 
 Throughout this tutorial, there will be several **notes** to give you a brief insight of specific recommendations/topics.
 
+## Extensions
 
+### PHP
+
+### Node.js
 
 # PHP
 
