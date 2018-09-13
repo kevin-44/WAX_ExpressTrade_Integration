@@ -439,19 +439,27 @@ If the selection of the barcode was successful, a browser alert should prompt st
 
 > **Note**: You can alternatively add your account by entering the secret shown on the second modal on Authenticator (this can be done by clicking on the `Edit` icon, it's located on the top far right corner). **This secret is different from the one you need to generate a valid two-factor authentication code programmatically.**
 
-Enter the current valid 2FA code shown on Authenticator:
+On Authenticator, click on the `Settings` icon located on the top left corner and hit `Sync Clock with Google`:
 
 <img alt = "OPSkins - Enable 2FA Step 7" src = "img/opskins_enable_2fa_step_7.png">
 
-You can get your `secret` by clicking on the `Settings` icon located on the top left corner, hitting the `Export / Import` option, and then pressing the `Download Backup File` button:
+<img alt = "OPSkins - Enable 2FA Step 8" src = "img/opskins_enable_2fa_step_8.png">
 
-<img alt = "Authenticator - Export Backup File Step 1" src = "img/authenticator_export_backup_file_step_1.png">
+<img alt = "OPSkins - Enable 2FA Step 9" src = "img/opskins_enable_2fa_step_9.png">
+
+Enter the current valid 2FA code shown on Authenticator:
+
+<img alt = "OPSkins - Enable 2FA Step 10" src = "img/opskins_enable_2fa_step_10.png">
+
+You can get your `secret` by clicking on the `Settings` icon, hitting the `Export / Import` option, and then pressing the `Download Backup File` button:
+
+<img alt = "OPSkins - Enable 2FA Step 7" src = "img/opskins_enable_2fa_step_7.png">
 
 <img alt = "Authenticator - Export Backup File Step 2" src = "img/authenticator_export_backup_file_step_2.png">
 
 <img alt = "Authenticator - Export Backup File Step 3" src = "img/authenticator_export_backup_file_step_3.png">
 
-A `.json` file will begin to download in your browser, if you open it you'll see a similar multidimensional [JSON array](https://www.w3schools.com/js/js_json_arrays.asp) as to the one below:
+A `.json` file will begin to download, if you open it you'll see a similar multidimensional [JSON array](https://www.w3schools.com/js/js_json_arrays.asp) as to the one below:
 
 ```
 {
