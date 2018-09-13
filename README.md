@@ -529,7 +529,7 @@ A modal will prompt, enter your 2FA code:
 
 You will then be issued an API key - along with your 2FA `secret` keep it in hand as you'll also need it depending on what you plan on adding to your website!
 
-> **WARNING!** If you give your API key to anyone, they can steal all of your items.
+> **Warning!** If you give your API key to anyone, they can steal all of your items.
 
 > **Note**: If you ever lose your API key or if you think it has been breached, you can always retrieve it or generate a new one on your [OPSkins advanced account options page](https://opskins.com/?loc=store_account#collapseAA).
 
