@@ -608,6 +608,8 @@ All *successful* API responses have return data within the `response` object. A 
 }
 ```
 
+---
+
 Sync your clock by executing `sudo apt install ntp -y`. You can then use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
 
 ```
@@ -618,6 +620,8 @@ $code = $totp -> now();
 > **Note**: Remember that you should also include (or load) OTPHP (preferably place the files inside a folder called `otphp`): `include_once "../includes/otphp/lib/otphp.php";` (add it below `include_once "../includes/execute_api_call.php";`)
 
 > **Note**: Your 2FA code will be stored in the `$code` variable, pass it as the value of `twofactor_code` in the `data` parameter when sending requests to endpoints that require it.
+
+---
 
 Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scope(s). Modify the `OPSkinsOAuthSettings` class found in `OPSkinsOAuth.php` and enter your `API key` and the appropriate `redirect url`:
 
