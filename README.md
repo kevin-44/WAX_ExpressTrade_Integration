@@ -602,6 +602,13 @@ or
 array("key" => "Your API Key", "steam_id" => "User's Steam ID", "case_id" => 1, "affiliate_eth_address" => "Anything, Deprecated", "amount" => 1)
 ```
 
+Use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
+
+```
+$totp = new \OTPHP\TOTP("Your 2FA Secret");
+$code = $totp -> now();
+```
+
 > **Note**: Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scope(s) (your `API key` and 2FA `secret` is required). Documentation for OPSkins OAuth can be found [here](https://docs.opskins.com/public/en.html#oauth).
 
 # Node.js
