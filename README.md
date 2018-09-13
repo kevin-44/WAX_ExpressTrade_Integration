@@ -609,6 +609,8 @@ $totp = new \OTPHP\TOTP("Your 2FA Secret");
 $code = $totp -> now();
 ```
 
+> **Note**: Your 2FA code will be stored inside the `$code` variable, pass it in the `$data` parameter when sending a request.
+
 Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scope(s). Documentation for OPSkins OAuth can be found [here](https://docs.opskins.com/public/en.html#oauth).
 
 # Node.js
