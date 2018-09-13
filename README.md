@@ -616,7 +616,7 @@ All successful API responses have return data within the `response` object. A ty
 
 All status codes and their titles can be found [here](https://github.com/OPSkins/trade-opskins-api/issues/19#issuecomment-403122935). In some instances, the status code may be an HTTP status code (e.g. 404).
 
-> **Note**: OPSkins recognizes that mixing these codes isn't ideal, this will be fixed in the near future.
+> **Note**: OPSkins recognizes that mixing these codes isn't ideal. This will be fixed in the near future.
 
 ---
 
