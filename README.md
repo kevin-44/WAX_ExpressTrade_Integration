@@ -557,7 +557,7 @@ Create a `.php` file (or download the `blank.php` file in this repository), name
 
 ## Calling the API
 
-Calling the WAX ExpressTrade API implies that you either make a `GET` or `POST` request to `https://api-trade.opskins.com`.
+Calling the WAX ExpressTrade API implies that you either send a `GET` or `POST` request to `https://api-trade.opskins.com` to perform an action on its end and returns a response.
 
 > **Note**: Calls to `api-trade.opskins.com` should always be performed through the `HTTPS` protocol; otherwise, you will be redirected.
 
