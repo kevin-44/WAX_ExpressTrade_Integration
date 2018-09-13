@@ -623,7 +623,7 @@ Sync your clock with an **NTP server** (this will request the current time from 
 You can then use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
 
 ```
-include_once "../includes/otphp/lib/otphp.php"; // remember to include/load extensions (note that this should only be done once in a file - preferably at the beginning)
+include_once "../includes/otphp/lib/otphp.php"; // remember to include/load extensions (note that this should only be done once per extension in a file - preferably at the beginning)
 
 $totp = new \OTPHP\TOTP("Your 2FA Secret");
 $code = $totp -> now();
