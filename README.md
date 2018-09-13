@@ -599,7 +599,7 @@ $totp = new \OTPHP\TOTP("Your 2FA Secret");
 $code = $totp -> now();
 ```
 
-> **Note**: Remember that you should also include (or load) OTPHP (preferably place the files inside a folder named `otphp`): `include_once "../includes/otphp/lib/otphp.php";` (place it below `include_once "../includes/execute_api_call.php";`)
+> **Note**: Remember that you should also include (or load) OTPHP (preferably place the files inside a folder named `otphp`): `include_once "../includes/otphp/lib/otphp.php";` (add it below `include_once "../includes/execute_api_call.php";`)
 
 > **Note**: Your 2FA code will be stored in the `$code` variable, pass it as the value of `twofactor_code` in the `data` parameter when sending requests to endpoints that require it.
 
