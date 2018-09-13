@@ -563,7 +563,7 @@ All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-ops
 <?php
 	include_once "../includes/execute_api_call.php";
 
-	$response = ExecuteAPICall("GET", "IItem/GetItems/v1", array("key=Your API Key&sku_filter=100,102")); // method, endpoint, data
+	$response = ExecuteAPICall("GET", "IItem/GetItems/v1", array("key=Your API Key&sku_filter=100,102")); // method, endpoint, data (optional), url (optional - exists to call any other API besides WAX ExpressTrade)
 
 	if($response != NULL) // check if the WAX ExpressTrade API responded (it may be offline or under maintenance)
 	{
