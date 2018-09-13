@@ -650,7 +650,7 @@ After authentication, the user will be redirected back to your website. Handle t
 	$client = $auth -> verifyReturn($_GET['state'], $_GET['code']);
 	$auth -> getBearerToken($client);
 
-	var_dump($auth -> testAuthed($client)); // output response for debugging purposes
+	var_dump($auth -> testAuthed($client)); // output the response for debugging purposes
 ?>
 ```
 
