@@ -586,20 +586,20 @@ All [endpoints](https://github.com/OPSkins/trade-opskins-api) of the WAX Express
 ?>
 ```
 
-The `data` parameter in the `ExecuteAPICall` function should be structured differently when making requests to endpoints that use the `POST` method. Here's an example:
+The `data` parameter in the `ExecuteAPICall` function should be structured differently when making requests to endpoints that use the `POST` method:
 
 ```
 array(
 	"key" => "Your API Key",
 	"steam_id" => "User's Steam ID",
 	"case_id" => 1,
-	"affiliate_eth_address" => "Anything, Deprecated",
+	"affiliate_eth_address" => "Deprecated",
 	"amount" => 1
 )
 
-or
+Or in one line:
 
-array("key" => "Your API Key", "steam_id" => "User's Steam ID", "case_id" => 1, "affiliate_eth_address" => "Anything, Deprecated", "amount" => 1)
+array("key" => "Your API Key", "steam_id" => "User's Steam ID", "case_id" => 1, "affiliate_eth_address" => "Deprecated", "amount" => 1)
 ```
 
 Sync your clock by executing `sudo apt install ntp -y`. You can then use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
