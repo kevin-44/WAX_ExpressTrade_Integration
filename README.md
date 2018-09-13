@@ -56,7 +56,7 @@
 		* [Request an API Key](#request-an-api-key)
 	* [Install Dependencies](#install-dependencies-1)
 	* [Calling the API](#calling-the-api)
-		* [Extra](#extra)
+		* [Additional](#additional)
 			* [Creating a special case-website user](#creating-a-special-case-website-user)
 * [Node.js](#nodejs-1)
 	* [Beginners](#beginners-1)
@@ -73,7 +73,7 @@
 		* [Request an API Key](#request-an-api-key-1)
 	* [Install Dependencies](#install-dependencies-3)
 	* [Calling the API](#calling-the-api-1)
-		* [Extra](#extra-1)
+		* [Additional](#additional-1)
 			* [Creating a special case-website user](#creating-a-special-case-website-user-1)
 
 # Overview
@@ -698,7 +698,7 @@ After authenticating, the user will be redirected back to your website. Handle t
 
 > **Note**: Documentation for OPSkins OAuth can be found [here](https://docs.opskins.com/public/en.html#oauth).
 
-### Extra
+### Additional
 
 #### Creating a special case-website user
 
@@ -756,6 +756,6 @@ The only value you need from the response is `api_key` (in case of the above, th
 
 ## Calling the API
 
-### Extra
+### Additional
 
 #### Creating a special case-website user
