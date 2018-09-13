@@ -569,6 +569,8 @@ All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-ops
 	{
 		$json = json_decode($response, true); // return an array to easily process the response
 
+		echo $json['status'] . "<br><br>"; // example on how to access data in the array 
+
 		var_dump($json); // output the response for debugging purposes
 	}
 	else
