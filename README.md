@@ -451,7 +451,7 @@ You can get your `secret` by clicking on the `Settings` icon located on the top 
 
 <img alt = "Authenticator - Export Backup File Step 3" src = "img/authenticator_export_backup_file_step_3.png">
 
-A `.json` file will begin to download in your browser, if you open it you'll see a similar multidimensional [json array](https://www.w3schools.com/js/js_json_arrays.asp) as to the one below:
+A `.json` file will begin to download in your browser, if you open it you'll see a similar multidimensional [JSON array](https://www.w3schools.com/js/js_json_arrays.asp) as to the one below:
 
 ```
 {
@@ -469,6 +469,35 @@ A `.json` file will begin to download in your browser, if you open it you'll see
 ```
 
 The only value you need from the `.json` file is `secret` (in case of the example above, that value is `VIYPXSTVYCV6KXF7`) - keep the value in hand as you may need it depending on the features you plan on adding to your website!
+
+**(Extra)** If you are unfamiliar with JSON arrays and have more than one account added to the Authenticator extension, you'll see more entires as shown below:
+
+```
+{
+	"3e44a51d4b5cad98c34f5f3658e35c73": {
+		"account": "76569192284382175",
+		"counter": 0,
+		"encrypted": false,
+		"hash": "3e44a51d4b5cad98c34f5f3658e35c73",
+		"index": 0,
+		"issuer": "OPSkins",
+		"secret": "CUPQTTSAL5XIDUTS",
+		"type": "totp"
+	},
+	"313b6cb61386cb8f535cd74f2a5ea17c": {
+		"account": "76561147468942173",
+		"counter": 0,
+		"encrypted": false,
+		"hash": "313b6cb61386cb8f535cd74f2a5ea17c",
+		"index": 0,
+		"issuer": "OPSkins",
+		"secret": "BVXFQ1S7YCDP71J4",
+		"type": "totp"
+	}
+}
+```
+
+Find the right entry, make sure the `issuer` is `OPSkins` and get your `secret` from the array.
 
 ## Install Dependencies
 
