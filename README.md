@@ -586,13 +586,13 @@ All [endpoints](https://github.com/OPSkins/trade-opskins-api) of the WAX Express
 ?>
 ```
 
-The `data` parameter in the `ExecuteAPICall` function should be structured differently when making requests to endpoints that use the `POST` method:
+The `data` parameter in the `ExecuteAPICall` function should be structured differently when sending requests to endpoints that use the `POST` method:
 
 ```
 array("key" => "Your API Key", "sku_filter" => "100,102")
 ```
 
-All *successful* API responses have return data within the `response` object. A typical response may look like this:
+All successful API responses have return data within the `response` object. A typical response may look like this:
 
 ```
 {
@@ -608,9 +608,15 @@ All *successful* API responses have return data within the `response` object. A 
 
 > **Note**: If a response is paginated, the pagination details (`current_page` and `total_pages`) occur at the top-level of the object, not inside the `response` body.
 
+All status codes and their titles can be found [here](https://github.com/OPSkins/trade-opskins-api/issues/19#issuecomment-403122935). In some instances, the status code may be an HTTP status code (e.g. 404).
+
 ---
 
-Sync your clock by executing `sudo apt install ntp -y`. You can then use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
+**Generating a valid two-factor authentication code programmatically**
+
+Sync your clock by executing `sudo apt install ntp -y`.
+
+You can then use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
 
 ```
 $totp = new \OTPHP\TOTP("Your 2FA Secret");
