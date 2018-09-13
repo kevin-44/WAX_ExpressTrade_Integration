@@ -86,7 +86,7 @@ Throughout this tutorial, there will be several `notes` to give you a brief insi
 
 #### Recommended
 
-- `execute_api_call.php` (can be downloaded from this repository)
+- `execute_api_call.php` (it can be downloaded from this repository)
 
 #### Other
 
