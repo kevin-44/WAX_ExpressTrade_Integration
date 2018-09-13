@@ -567,7 +567,7 @@ Calling the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api)
 
 ---
 
-All [endpoints](https://github.com/OPSkins/trade-opskins-api) of the WAX ExpressTrade API can be called using the same base structure. For instance, the [GetItems](https://github.com/OPSkins/trade-opskins-api/blob/master/IItem/GetItems.md) endpoint can be called as shown below:
+All [endpoints](https://github.com/OPSkins/trade-opskins-api) of the WAX ExpressTrade API can be called using the same base structure. For instance, the [GetItems](https://github.com/OPSkins/trade-opskins-api/blob/master/IItem/GetItems.md) endpoint can be called as followed:
 
 ```
 <?php
@@ -596,7 +596,7 @@ The `data` parameter in the `ExecuteAPICall` function should be structured diffe
 array("key" => "Your API Key", "sku_filter" => "100,102")
 ```
 
-> **Note**: Your `API key` should be passed as `key` (see the code above for examples). The [API documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) doesn't specify this.
+> **Note**: Your `API key` should be passed as `key` (as shown above). The [API documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) doesn't specify this.
 
 All successful API responses have return data within the `response` object. A typical response may look like this:
 
