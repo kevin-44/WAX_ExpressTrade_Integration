@@ -592,6 +592,22 @@ The `data` parameter in the `ExecuteAPICall` function should be structured diffe
 array("key" => "Your API Key", "sku_filter" => "100,102")
 ```
 
+All *successful* API responses have return data within the `response` object. A typical response may look like this:
+
+```
+{
+	"status": 1,
+	"time": 1528334546,
+	"response":
+	{
+		"offer":
+		{
+			"some_data": "here"
+		}
+	}
+}
+```
+
 Sync your clock by executing `sudo apt install ntp -y`. You can then use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
 
 ```
