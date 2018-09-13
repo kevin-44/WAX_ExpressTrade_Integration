@@ -107,7 +107,7 @@ Know of an extension that isn't listed above? [Open an issue](https://github.com
 
 > **Note**: Extensions prefixed with `official` were released by [OPSkins](https://opskins.com).
 
-> **Note**: Although there are many different extensions you can use (not limited to the list above) to invoke the WAX ExpressTrade API, the first extension under `Recommended` in each category will be the extension used in this tutorial - you are free to use any other extension of your choice though!
+> **Note**: Although there are many different extensions you can use (not limited to the list above) to invoke the WAX ExpressTrade API, the first extension under `Recommended` in each category will be the extension used in this tutorial - you are free to use any other extension however!
 
 # PHP
 
@@ -537,7 +537,7 @@ You will then be issued an API key - along with your 2FA `secret`, keep it in ha
 
 ## Install Dependencies
 
-As stated in the [overview](#overview) at the beginning of the tutorial, the first extension under `Recommended` will be used. You are free to use any [other extension](#extensions) however!
+As stated in the [overview](#overview) at the beginning of the tutorial, the first extension under `Recommended` will be used - you are free to use any [other extension](#extensions) however!
 
 Download `execute_api_call.php` (it can be downloaded from this repository) and place it inside your `includes` directory.
 
