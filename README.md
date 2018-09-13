@@ -101,9 +101,9 @@ Throughout this tutorial, there will be several **notes** to give you a brief in
 
 Know of an extension that isn't listed above? [Open an issue](https://github.com/Kevin-Reinke/WAX_ExpressTrade_Integration/issues/new) and it will be added based on its functionality and quality!
 
-> **Note**: Extensions prefixed with **official** were released by [OPSkins](https://opskins.com).
+> **Note**: Extensions prefixed with `official` were released by [OPSkins](https://opskins.com).
 
-> **Note**: Although there are many different extensions you can use (not limited to the list above) to invoke the WAX ExpressTrade API, the first extension under **Recommended** in each category will be the extension used in this tutorial - you are free to use any other extension of your choice though!
+> **Note**: Although there are many different extensions you can use (not limited to the list above) to invoke the WAX ExpressTrade API, the first extension under `Recommended` in each category will be the extension used in this tutorial - you are free to use any other extension of your choice though!
 
 # PHP
 
@@ -193,7 +193,7 @@ Create a new user and add it to the `sudo` group so you'll have administrative p
 - Add the user to the `sudo` group, replacing `example_user` with the username of the user you previously created: `adduser example_user sudo`
 - Switch to the user, again by replacing `example_user`: `su example_user`
 
-> **Note**: Log into your VPS with the credentials you previously created from here on out (add **sudo** to the beginning of a command if administrative privileges is required); although, you can always use the **su** command to switch to the user.
+> **Note**: Log into your VPS with the credentials you previously created from here on out (add `sudo` to the beginning of a command if administrative privileges is required); although, you can always use the `su` command to switch to the user.
 
 #### Install Dependencies
 
@@ -259,7 +259,7 @@ Go forward with the selected domain ownership validation process. At the end, ty
 
 <img alt = "FileZilla - Upload SSL Reference" src = "img/filezilla_upload_ssl_reference.png">
 
-> **Note**: The **username** and **password** field on the FTP client correspond to your VPS log in credentials.
+> **Note**: The `username` and `password` field on the FTP client correspond to your VPS log in credentials.
 
 You will then need to enable SSL mode so that Apache is able to run an encrypted HTTPS connection:
 
@@ -413,7 +413,7 @@ You can create an OPSkins account by a) [signing in through Steam for the first 
 
 Some [endpoints](https://github.com/OPSkins/trade-opskins-api) and [WAX ExpressTrade](https://trade.opskins.com) itself require **2FA** (*Two-Factor Authentication*) to be enabled on your account, you can do this with the help of your mobile device and the Google Authenticator app; however, it is recommended that you use a different app (this could also be an extension for your desktop browser, such as the [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?utm_source=chrome-ntp-icon) extension - highly recommended!) that shows you your `secret` as it is also required.
 
-> **Note**: Your **secret** is required to generate a valid two-factor authentication code programmatically. For instance, the [SendOfferToSteamId](https://github.com/OPSkins/trade-opskins-api/blob/master/ITrade/SendOfferToSteamId.md) endpoint requires that you pass your current valid 2FA code.
+> **Note**: Your `secret` is required to generate a valid two-factor authentication code programmatically. For instance, the [SendOfferToSteamId](https://github.com/OPSkins/trade-opskins-api/blob/master/ITrade/SendOfferToSteamId.md) endpoint requires that you pass your current valid 2FA code.
 
 ---
 
