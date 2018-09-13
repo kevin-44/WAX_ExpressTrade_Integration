@@ -54,7 +54,7 @@
 		* [Create an Account](#create-an-account)
 		* [Enable 2FA (Two-Factor Authentication)](#enable-2fa-two-factor-authentication)
 		* [Request an API Key](#request-an-api-key)
-	* [Install Dependencies](#install-dependencies-1)
+	* [Install Dependencies](#install-dependencies)
 * [Node.js](#nodejs-1)
 	* [Beginners](#beginners-1)
 		* [Local Environment](#local-environment-1)
