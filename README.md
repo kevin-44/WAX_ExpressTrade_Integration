@@ -557,7 +557,13 @@ Create a `.php` file (or download the `blank.php` file in this repository), name
 
 ## Calling the API
 
-All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api) can be called using the same base structure. For instance, the [GetItems](https://github.com/OPSkins/trade-opskins-api/blob/master/IItem/GetItems.md) endpoint can be called as followed:
+Calling the WAX ExpressTrade API implies that you either make a `GET` or `POST` request to `https://api-trade.opskins.com`.
+
+> **Note**: Calls to `api-trade.opskins.com` should always be performed through the `HTTPS` protocol; otherwise, you will be redirected.
+
+---
+
+All [endpoints](https://github.com/OPSkins/trade-opskins-api) of the WAX ExpressTrade API can be called using the same base structure. For instance, the [GetItems](https://github.com/OPSkins/trade-opskins-api/blob/master/IItem/GetItems.md) endpoint can be called as followed:
 
 ```
 <?php
