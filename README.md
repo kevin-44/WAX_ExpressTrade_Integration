@@ -706,7 +706,7 @@ You will need an API key to invoke mostly all of the endpoints under the [ICase]
 
 > **Note**: This API key is different from your OPSkins API key.
 
-Invoke the [CreateVCaseUser](https://github.com/OPSkins/trade-opskins-api/blob/master/IUser/CreateVCaseUser.md) endpoint from your SSH client, replacing `http://example.com` with your domain and `example` with your website's display name (e.g. shown on trade offers requesting keys):
+Invoke the [CreateVCaseUser](https://github.com/OPSkins/trade-opskins-api/blob/master/IUser/CreateVCaseUser.md) endpoint from the SSH client, replacing `http://example.com` with your domain and `example` with your website's display name (e.g. shown on trade offers requesting keys):
 
 ```
 curl -d '{"site_url":"http://example.com","display_name":"example"}' -H "Content-Type: application/json" -X POST https://api-trade.opskins.com/IUser/CreateVCaseUser/v1/
