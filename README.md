@@ -482,13 +482,13 @@ A `.json` file will begin to download. If you open it you'll see a similar multi
 		"hash": "3e44a51d4b5cad98c34f5f3658e35c73",
 		"index": 0,
 		"issuer": "OPSkins",
-		"secret": "CUPQTTSAL5XIDUTS",
+		"secret": "IUPQTTSIL5WIDUNS",
 		"type": "totp"
 	}
 }
 ```
 
-The only value you need from this `.json` file is `secret` (in case of the example above, that value is `CUPQTTSAL5XIDUTS`) - keep that value in hand as you may need it depending on the features you plan on adding to your website!
+The only value you need from this `.json` file is `secret` (in case of the example above, that value is `IUPQTTSIL5WIDUNS`) - keep that value in hand as you may need it depending on the features you plan on adding to your website!
 
 **(Optional)** If you are unfamiliar with JSON arrays and have more than one account added to Authenticator, you'll see more entires as shown below:
 
@@ -501,7 +501,7 @@ The only value you need from this `.json` file is `secret` (in case of the examp
 		"hash": "3e44a51d4b5cad98c34f5f3658e35c73",
 		"index": 0,
 		"issuer": "OPSkins",
-		"secret": "CUPQTTSAL5XIDUTS",
+		"secret": "IUPQTTSIL5WIDUNS",
 		"type": "totp"
 	},
 	"313b6cb61386cb8f535cd74f2a5ea17c": {
