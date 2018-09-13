@@ -724,7 +724,7 @@ pt_gift_trades":false,"vcase_restricted":true}}}
 
 The only value you need from the response is `api_key` (in case of the response above, that value is `c3ec795f41967f34209437b0005258`).
 
-> **Note**: Your `API key` should be passed as `key`.
+> **Note**: Your `OPSkins API key`/`case-website API key` should be passed as `key`. The [API documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) doesn't specify this.
 
 # Node.js
 
