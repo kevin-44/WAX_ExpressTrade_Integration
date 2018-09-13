@@ -633,7 +633,7 @@ $code = $totp -> now();
 
 ---
 
-**Granting access to the OAuth scopes your website needs**
+**Granting access to OAuth scopes**
 
 Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require one or more [OAuth scopes](https://docs.opskins.com/public/en.html#scopes).
 
