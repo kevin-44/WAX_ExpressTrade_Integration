@@ -515,7 +515,7 @@ Simply find the right entry (base your search on the `account` index), make sure
 
 As there are endpoints that require a 2FA code, there also are endpoints that require an API key.
 
-> **Note**: The [ICase](https://github.com/OPSkins/trade-opskins-api/tree/master/ICase)/[ICaseSite](https://github.com/OPSkins/trade-opskins-api/tree/master/ICaseSite) interface requires a completely different API key.
+> **Note**: The [ICase](https://github.com/OPSkins/trade-opskins-api/tree/master/ICase)/[ICaseSite](https://github.com/OPSkins/trade-opskins-api/tree/master/ICaseSite) interface requires a completely different API key. That API key can be obtained by creating a special case-website user with the [CreateVCaseUser](https://github.com/OPSkins/trade-opskins-api/blob/master/IUser/CreateVCaseUser.md) endpoint.
 
 ## Install Dependencies
 
