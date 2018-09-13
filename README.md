@@ -56,7 +56,7 @@
 		* [Request an API Key](#request-an-api-key)
 	* [Install Dependencies](#install-dependencies-1)
 	* [Calling the API](#calling-the-api)
-		* [Extra](#extra)
+		* [Extra](#creating-a-special-case-website-user)
 * [Node.js](#nodejs-1)
 	* [Beginners](#beginners-1)
 		* [Local Environment](#local-environment-1)
@@ -72,7 +72,7 @@
 		* [Request an API Key](#request-an-api-key-1)
 	* [Install Dependencies](#install-dependencies-3)
 	* [Calling the API](#calling-the-api-1)
-		* [Extra](#extra-1)
+		* [Extra](#creating-a-special-case-website-user-1)
 
 # Overview
 
