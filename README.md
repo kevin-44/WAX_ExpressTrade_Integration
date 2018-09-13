@@ -497,7 +497,7 @@ The only value you need from the `.json` file is `secret` (in case of the exampl
 }
 ```
 
-Find the right entry, make sure the `issuer` is `OPSkins` and get your `secret` from the array.
+Simply find the right entry (base your search on the `account` index), make sure the `issuer` is `OPSkins` and get your `secret` from the array.
 
 ## Install Dependencies
 
