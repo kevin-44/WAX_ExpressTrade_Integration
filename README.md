@@ -712,7 +712,7 @@ Invoke the [CreateVCaseUser](https://github.com/OPSkins/trade-opskins-api/blob/m
 curl -d '{"site_url":"http://example.com","display_name":"example"}' -H "Content-Type: application/json" -X POST https://api-trade.opskins.com/IUser/CreateVCaseUser/v1/
 ```
 
-Upon your special case-website user being successfully created, you response will be printed that may look like this:
+Upon your special case-website user being successfully created, a response will be printed in your SSH client that may look like this:
 
 ```
 {"status":1,"time":1536866982,"response":{"api_key":"c3ec795f41967f34209437b0005
