@@ -596,6 +596,8 @@ The `data` parameter in the `ExecuteAPICall` function should be structured diffe
 array("key" => "Your API Key", "sku_filter" => "100,102")
 ```
 
+> **Note**: As the [API documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) doesn't specify how to include your `API key` within a request, note that it should be passed as `key`.
+
 All successful API responses have return data within the `response` object. A typical response may look like this:
 
 ```
