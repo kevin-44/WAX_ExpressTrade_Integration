@@ -635,7 +635,9 @@ $code = $totp -> now();
 
 **Granting access to the OAuth scopes your website needs**
 
-Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require one or more [OAuth scopes](https://docs.opskins.com/public/en.html#scopes). Modify the `OPSkinsOAuthSettings` class found in `OPSkinsOAuth.php` and enter your `API key`, the appropriate `redirect url` and the `name` of your website:
+Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require one or more [OAuth scopes](https://docs.opskins.com/public/en.html#scopes).
+
+Modify the `OPSkinsOAuthSettings` class found in `OPSkinsOAuth.php` by entering your `API key`, the appropriate `redirect url` and the `name` of your website:
 
 ```
 class OPSkinsOAuthSettings {
