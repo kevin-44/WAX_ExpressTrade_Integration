@@ -599,11 +599,26 @@ $totp = new \OTPHP\TOTP("Your 2FA Secret");
 $code = $totp -> now();
 ```
 
-> **Note**: Remember that you should also include (or load) OTPHP (preferably place the files inside a folder named `otphp`): `include_once "../includes/otphp/lib/otphp.php";` (add it below `include_once "../includes/execute_api_call.php";`)
+> **Note**: Remember that you should also include (or load) OTPHP (preferably place the files inside a folder called `otphp`): `include_once "../includes/otphp/lib/otphp.php";` (add it below `include_once "../includes/execute_api_call.php";`)
 
 > **Note**: Your 2FA code will be stored in the `$code` variable, pass it as the value of `twofactor_code` in the `data` parameter when sending requests to endpoints that require it.
 
-Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scope(s). 
+Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scope(s). Edit the `OPSkinsOAuthSettings` class found in `OPSkinsOAuth.php` with your account/website information:
+
+```
+class OPSkinsOAuthSettings {
+
+	static $opskinsAPIUrl = 'https://api.opskins.com/'; // do not change this
+	static $opskinsAPIKey = 'Your API Key';
+
+	static $opskinsOAuthURL = 'https://oauth.opskins.com/'; // do not change this
+	static $opskinsOAuthReturnUri = 'http://localhost/'; // do not change this
+	static $siteName = 'Your Website Name';
+
+	static $stateMappingFile = '/path/to/file/state_map'; // do not change this, or replace file storage with an MySQL database (experienced users only)
+	static $clientsFileLocation = '/path/to/file/clients_file'; // do not change this, or replace file storage with an MySQL database (experienced users only)
+}
+```
 
 Documentation for OPSkins OAuth can be found [here](https://docs.opskins.com/public/en.html#oauth).
 
