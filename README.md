@@ -586,7 +586,7 @@ All [endpoints](https://github.com/OPSkins/trade-opskins-api) of the WAX Express
 ?>
 ```
 
-However, the `data` parameter in the `ExecuteAPICall` function should be structured differently when making requests to endpoints that use the `POST` method. Here's an example:
+The `data` parameter in the `ExecuteAPICall` function should be structured differently when making requests to endpoints that use the `POST` method. Here's an example:
 
 ```
 array(
