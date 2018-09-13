@@ -457,9 +457,9 @@ You can then get your `secret` by clicking on the `Settings` icon, hitting the `
 
 <img alt = "OPSkins - Enable 2FA Step 7" src = "img/opskins_enable_2fa_step_7.png">
 
-<img alt = "Authenticator - Export Backup File Step 2" src = "img/authenticator_export_backup_file_step_2.png">
+<img alt = "OPSkins - Enable 2FA Step 11" src = "img/opskins_enable_2fa_step_11.png">
 
-<img alt = "Authenticator - Export Backup File Step 3" src = "img/authenticator_export_backup_file_step_3.png">
+<img alt = "OPSkins - Enable 2FA Step 12" src = "img/opskins_enable_2fa_step_12.png">
 
 A `.json` file will begin to download, if you open it you'll see a similar multidimensional [JSON array](https://www.w3schools.com/js/js_json_arrays.asp) as to the one below:
 
