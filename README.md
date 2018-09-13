@@ -668,7 +668,7 @@ Generate a URL and ask the user to authenticate (this will request access to the
 ?>
 ```
 
-Request access to specific scopes by modifying `$redirect_url = $auth -> getAuthUrl($client);` (list of scopes can be found [here](https://docs.opskins.com/public/en.html#scopes)):
+Request access to a specific array of scopes by modifying `$redirect_url = $auth -> getAuthUrl($client);` (list of scopes can be found [here](https://docs.opskins.com/public/en.html#scopes)):
 
 ```
 $redirect_url = $auth -> getAuthUrl($client, ["identity", "trades"]);
