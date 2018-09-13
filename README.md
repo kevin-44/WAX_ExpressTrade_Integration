@@ -730,6 +730,14 @@ The only value you need from the response is `api_key` (in case of the above, th
 
 #### Automatically receiving the $0.25 commission per case opened
 
+You will need to link your OPSkins account to your `case-website API key` in order to receive commission directly into your [USD Wallet](https://opskins.com).
+
+Invoke the [UpdateCommissionSettings](https://github.com/OPSkins/trade-opskins-api/blob/master/ICaseSite/UpdateCommissionSettings.md) endpoint from your SSH client, replacing `Your OPSkins User ID` with your actual ID (you can get your OPSkins User ID on the [WAX ExpressTrade settings page](https://trade.opskins.com/settings)) and `Referral Commission Rate` with a floating point number ranging from `0.00` to `10.00` (`10.00` being every cent of the received commission - a case-website receives 10% per case opened):
+
+```
+curl -d '{"network_id":1,"network_user_id":Your OPSkins User ID,"referral_commission_rate":Referral Commission Rate}' -H "Content-Type: application/json" -X POST https://api-trade.opskins.com/ICaseSite/UpdateCommissionSettings/v1/
+```
+
 # Node.js
 
 ## Beginners
