@@ -623,7 +623,7 @@ $code = $totp -> now();
 
 ---
 
-Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scope(s). Modify the `OPSkinsOAuthSettings` class found in `OPSkinsOAuth.php` and enter your `API key` and the appropriate `redirect url`:
+Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scope(s). Modify the `OPSkinsOAuthSettings` class found in `OPSkinsOAuth.php`, and enter your `API key` and the appropriate `redirect url`:
 
 ```
 class OPSkinsOAuthSettings {
