@@ -573,11 +573,11 @@ All [endpoints](https://github.com/OPSkins/trade-opskins-api) of the WAX Express
 
 	if($response != NULL) // check if the WAX ExpressTrade API responded (it may be offline or under maintenance)
 	{
-		$json = json_decode($response, true); // return an array to easily process the response
+		$data = json_decode($response, true); // return an array to easily process the response
 
-		echo "status: " . $json['status'] . "<br><br>"; // example on how to access data in the array 
+		echo "status: " . $data['status'] . "<br><br>"; // example on how to access data in the array 
 
-		var_dump($json); // output the response for debugging purposes
+		var_dump($data); // output the response for debugging purposes
 	}
 	else
 	{
