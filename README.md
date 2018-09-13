@@ -726,6 +726,8 @@ The only value you need from the response is `api_key` (in case of the above, th
 
 > **Note**: Your `OPSkins API key`/`case-website API key` (one of the two) should be passed as `key`. The [API documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) doesn't specifically state this.
 
+#### Automatically receiving the $0.25 commission per case opened
+
 # Node.js
 
 ## Beginners
@@ -759,3 +761,5 @@ The only value you need from the response is `api_key` (in case of the above, th
 ### Additional
 
 #### Creating a special case-website user
+
+#### Automatically receiving the $0.25 commission per case opened
