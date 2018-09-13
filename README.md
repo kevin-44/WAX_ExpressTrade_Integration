@@ -620,6 +620,40 @@ class OPSkinsOAuthSettings {
 }
 ```
 
+Generate a URL and ask the user to authenticate (the `identity` scope is set as default):
+
+```
+<?php
+	include_once "../includes/OPSkinsOAuth.php"; // remember to include/load extensions (note that this should only be done once in a file - preferably at the beginning)
+
+	$auth = new OPSkinsOAuth();
+	$client = $auth -> createOAuthClient();
+	$redirect_url = $auth -> getAuthUrl($client); // generate an authentication URL
+
+	header("Location: " . $redirect_url); // redirect the user
+?>
+```
+
+Request access to specific scopes by modifying `$redirect_url = $auth -> getAuthUrl($client);` (list of scopes can be found [here](https://docs.opskins.com/public/en.html#scopes)):
+
+```
+$redirect_url = $auth -> getAuthUrl($client, ["identity", "trades"]);
+```
+
+After authentication, the user will be redirected back to your website. Handle the response:
+
+```
+<?php
+	include_once "../includes/OPSkinsOAuth.php"; // remember, only once!
+
+	$auth = new OPSkinsOAuth();
+	$client = $auth -> verifyReturn($_GET['state'], $_GET['code']);
+	$auth -> getBearerToken($client);
+
+	var_dump($auth -> testAuthed($client)); // output response for debugging purposes
+?>
+```
+
 Documentation for OPSkins OAuth can be found [here](https://docs.opskins.com/public/en.html#oauth).
 
 # Node.js
