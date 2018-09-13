@@ -437,7 +437,7 @@ If the selection of the barcode was successful, a browser alert should prompt st
 
 <img alt = "OPSkins - Enable 2FA Step 6" src = "img/opskins_enable_2fa_step_6.png">
 
-> **Note**: You can alternatively enter the secret shown on the second modal on Authenticator by clicking on the top far right icon. This secret is different from the one you need!
+> **Note**: You can alternatively add your account by entering the secret shown on the second modal on Authenticator (click on the `Edit` icon, it's located on the top far right corner). This secret is different from the one you need!
 
 Enter the current valid 2FA code shown on Authenticator:
 
