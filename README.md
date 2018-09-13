@@ -619,11 +619,11 @@ Sync your clock by executing `sudo apt install ntp -y`.
 You can then use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
 
 ```
+include_once "../includes/otphp/lib/otphp.php"; // remember to include/load extensions (note that this should only be done once in a file - preferably at the beginning)
+
 $totp = new \OTPHP\TOTP("Your 2FA Secret");
 $code = $totp -> now();
 ```
-
-> **Note**: Remember that you should also include (or load) OTPHP (preferably place the files inside a folder called `otphp`): `include_once "../includes/otphp/lib/otphp.php";` (add it below `include_once "../includes/execute_api_call.php";`)
 
 > **Note**: Your 2FA code will be stored in the `$code` variable, pass it as the value of `twofactor_code` in the `data` parameter when sending requests to endpoints that require it.
 
@@ -650,7 +650,7 @@ Generate a URL and ask the user to authenticate (this will request access for th
 
 ```
 <?php
-	include_once "../includes/OPSkinsOAuth.php"; // remember to include/load extensions (note that this should only be done once in a file - preferably at the beginning)
+	include_once "../includes/OPSkinsOAuth.php";
 
 	$auth = new OPSkinsOAuth();
 	$client = $auth -> createOAuthClient();
