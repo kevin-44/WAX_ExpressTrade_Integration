@@ -535,7 +535,7 @@ You will then be issued an API key - along with your 2FA `secret`, keep it in ha
 
 ## Install Dependencies
 
-As stated in the [overview](#overview) at the beginning of this tutorial, the first extension under `Recommended` will be used. You are free to use any other extension however!
+As stated in the [overview](#overview) at the beginning of this tutorial, the first extension under `Recommended` will be used. You are free to use [any other extension](#extensions) however!
 
 [Download php-oauth](https://github.com/OPSkins/php-oauth), extract the compressed archive and place `OPSkinsOAuth.php` in your `includes` directory:
 
