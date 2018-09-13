@@ -603,7 +603,7 @@ $code = $totp -> now();
 
 > **Note**: Your 2FA code will be stored in the `$code` variable, pass it as the value of `twofactor_code` in the `data` parameter when sending requests to endpoints that require it.
 
-Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scope(s). Edit the `OPSkinsOAuthSettings` class found in `OPSkinsOAuth.php` with your account/website information:
+Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scope(s). Modify the `OPSkinsOAuthSettings` class found in `OPSkinsOAuth.php` and enter your account/website information:
 
 ```
 class OPSkinsOAuthSettings {
