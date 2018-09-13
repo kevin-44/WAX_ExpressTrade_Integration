@@ -581,7 +581,7 @@ All [endpoints](https://github.com/OPSkins/trade-opskins-api) of the WAX Express
 	}
 	else
 	{
-		echo "The WAX ExpressTrade didn't respond, it may be offline or under maintenance";
+		echo "The WAX ExpressTrade API didn't respond, it may be offline or under maintenance";
 	}
 ?>
 ```
