@@ -571,7 +571,7 @@ All [endpoints](https://github.com/OPSkins/trade-opskins-api) of the WAX Express
 
 	$response = ExecuteAPICall("GET", "IItem/GetItems/v1", array("key=Your API Key&sku_filter=100,102")); // method, endpoint, data (optional), url (optional - exists to call any other API besides WAX ExpressTrade)
 
-	if($response != NULL) // check if the WAX ExpressTrade API responded (it may be offline or under maintenance)
+	if($response != NULL) // check if the WAX ExpressTrade API responded
 	{
 		$data = json_decode($response, true); // return an array to easily process the response
 
