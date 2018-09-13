@@ -674,7 +674,7 @@ Request access to a specific array of scopes by modifying `$redirect_url = $auth
 $redirect_url = $auth -> getAuthUrl($client, ["identity", "trades"]);
 ```
 
-After authentication, the user will be redirected back to your website. Handle the response:
+After authenticating, the user will be redirected back to your website. Handle the response:
 
 ```
 <?php
