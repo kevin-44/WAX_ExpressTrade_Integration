@@ -724,6 +724,8 @@ pt_gift_trades":false,"vcase_restricted":true}}}
 
 The only value you need from the response is `api_key` (in case of the example above, that value is `c3ec795f41967f34209437b0005258`).
 
+> **Note**: Your `API key` should be passed as `key`.
+
 # Node.js
 
 ## Beginners
