@@ -527,6 +527,10 @@ A modal will prompt, enter your 2FA code:
 
 <img alt = "OPSkins - Request API Key Step 2" src = "img/opskins_request_api_key_step_2.png">
 
+Your API key will then be shown to you - along with your 2FA `secret` keep it in hand as you'll also need it depending on what you plan on adding to your website!
+
+> **Note**: If you give your API key to anyone, they can steal all of your items.
+
 ## Install Dependencies
 
 # Node.js
