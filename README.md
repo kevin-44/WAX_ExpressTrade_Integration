@@ -684,7 +684,7 @@ After authentication, the user will be redirected back to your website. Handle t
 ?>
 ```
 
-Documentation for OPSkins OAuth can be found [here](https://docs.opskins.com/public/en.html#oauth).
+> **Note**: Documentation for OPSkins OAuth can be found [here](https://docs.opskins.com/public/en.html#oauth).
 
 # Node.js
 
