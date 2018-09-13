@@ -453,7 +453,7 @@ Enter the current valid two-factor authentication code shown on Authenticator:
 
 <img alt = "OPSkins - Enable 2FA Step 10" src = "img/opskins_enable_2fa_step_10.png">
 
-You can then get your `secret` by clicking on the `Settings` icon, hitting the `Export / Import` option, and then pressing the `Download Backup File` button:
+After successfully enabling 2FA on your OPSkins account, you can now proceed to obtaining your `secret` from the Authenticator extension! Click on the `Settings` icon, hit the `Export / Import` option, and then press the `Download Backup File` button:
 
 <img alt = "OPSkins - Enable 2FA Step 7" src = "img/opskins_enable_2fa_step_7.png">
 
