@@ -608,7 +608,9 @@ All successful API responses have return data within the `response` object. A ty
 
 > **Note**: If a response is paginated, the pagination details (`current_page` and `total_pages`) occur at the top-level of the object, not inside the `response` body.
 
-All status codes and their titles can be found [here](https://github.com/OPSkins/trade-opskins-api/issues/19#issuecomment-403122935). In some instances, the status code may be an HTTP status code (e.g. 404). This may change in the near future however.
+All status codes and their titles can be found [here](https://github.com/OPSkins/trade-opskins-api/issues/19#issuecomment-403122935). In some instances, the status code may be an HTTP status code (e.g. 404).
+
+> **Note**: OPSkins recognizes that mixing these codes isn't ideal, this will be fixed in the near future.
 
 ---
 
