@@ -55,6 +55,7 @@
 		* [Enable 2FA (Two-Factor Authentication)](#enable-2fa-two-factor-authentication)
 		* [Request an API Key](#request-an-api-key)
 	* [Install Dependencies](#install-dependencies-1)
+	* [Calling the API](#calling-the-api)
 * [Node.js](#nodejs-1)
 	* [Beginners](#beginners-1)
 		* [Local Environment](#local-environment-1)
@@ -69,6 +70,7 @@
 		* [Enable 2FA (Two-Factor Authentication)](#enable-2fa-two-factor-authentication-1)
 		* [Request an API Key](#request-an-api-key-1)
 	* [Install Dependencies](#install-dependencies-3)
+	* [Calling the API](#calling-the-api-1)
 
 # Overview
 
@@ -84,7 +86,7 @@ Throughout this tutorial, there will be several `notes` to give you a brief insi
 
 #### Recommended
 
-- `official` [php-oauth](https://github.com/OPSkins/php-oauth) (can be used for [OPSkins OAuth](https://docs.opskins.com/public/en.html#oauth) and the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api))
+- execute_api_call.php (can be downloaded from this repository)
 
 #### Other
 
@@ -551,11 +553,34 @@ Create a `.php` file (or download the `blank.php` file in this repository), name
 
 ```
 <?php
-	include_once "../includes/OPSkinsOAuth.php";
+	include_once "../includes/execute_api_call.php";
 ?>
 ```
 
 > **Note**: As specified when you configured the name-based virtual hosts (or if you did), your system will look for the file `index.php` when requesting the document root of your domain (e.g. `example.com`).
+
+## Calling the API
+
+All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api) can be called using the same syntax. For instance, this is how you call the `GetItems` endpoint:
+
+^^^
+<?php
+	include_once "../includes/execute_api_call.php";
+
+	$response = ExecuteAPICall("GET", "IItem/GetItems/v1", array("key=b5633a427f7d0cb2cc8280d0ce97b8&sku_filter=100,102")); // method, endpoint, data
+
+	if($response != NULL) // check if the WAX ExpressTrade API responded (it may be offline or under maintenance)
+	{
+		$json = json_decode($response, true); // decode the response as an array
+
+		var_dump($json); // output the decoded response
+	}
+	else
+	{
+		echo "The WAX ExpressTrade didn't respond";
+	}
+?>
+^^^
 
 # Node.js
 
@@ -584,3 +609,5 @@ Create a `.php` file (or download the `blank.php` file in this repository), name
 ### Request an API Key
 
 ## Install Dependencies
+
+## Calling the API
