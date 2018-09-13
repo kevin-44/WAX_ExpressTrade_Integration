@@ -571,13 +571,13 @@ All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-ops
 
 	if($response != NULL) // check if the WAX ExpressTrade API responded (it may be offline or under maintenance)
 	{
-		$json = json_decode($response, true); // return an array to access the response
+		$json = json_decode($response, true); // return an array to easily process the response
 
-		var_dump($json); // output the response
+		var_dump($json); // output the response for debugging purposes
 	}
 	else
 	{
-		echo "The WAX ExpressTrade didn't respond";
+		echo "The WAX ExpressTrade didn't respond, it may be offline or under maintenance";
 	}
 ?>
 ```
