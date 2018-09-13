@@ -539,7 +539,7 @@ As stated in the [overview](#overview) at the beginning of this tutorial, the fi
 
 [Download php-oauth](https://github.com/OPSkins/php-oauth), extract the compressed archive and place `OPSkinsOAuth.php` in your `includes` directory:
 
-> **Note**: If you skipped the part of the tutorial where the `includes` folder was created, simply create the folder outside of your `public_html` directory. You should place any file that can be dynamically included from your `public_html` directory insider the `includes` folder.
+> **Note**: If you skipped the part of the tutorial where the `includes` folder was created, simply create the folder outside of your `public_html` directory. You should place any file that can be dynamically included from your `public_html` directory inside your `includes` folder.
 
 # Node.js
 
