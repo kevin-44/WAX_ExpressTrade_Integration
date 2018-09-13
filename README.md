@@ -553,7 +553,7 @@ Create a `.php` file (or download the `blank.php` file in this repository), name
 ?>
 ```
 
-> **Note**: `index.php` is the entry point of your website.
+> **Note**: `index.php` is the entry point of any website.
 
 ## Calling the API
 
