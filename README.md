@@ -596,7 +596,7 @@ or
 array("key" => "Your API Key", "steam_id" => "User's Steam ID", "case_id" => 1, "affiliate_eth_address" => "Anything, Deprecated", "amount" => 1)
 ```
 
-> **Note**: Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scopes.
+> **Note**: Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scopes. Documentation for OPSkins OAuth can be found [here](https://docs.opskins.com/public/en.html#oauth).
 
 # Node.js
 
