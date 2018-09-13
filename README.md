@@ -537,9 +537,9 @@ You will then be issued an API key - along with your 2FA `secret`, keep it in ha
 
 As stated in the [overview](#overview) at the beginning of this tutorial, the first extension under `Recommended` will be used.
 
-[Download php-oauth](https://github.com/OPSkins/php-oauth) and place the file in your `includes` directory:
+[Download php-oauth](https://github.com/OPSkins/php-oauth), extract the compressed archive and place `OPSkinsOAuth.php` in your `includes` directory:
 
-> **Note**: If you skipped the part of the tutorial where the `includes` folder was created, create the folder outside of your `public_html` directory.
+> **Note**: If you skipped the part of the tutorial where the `includes` folder was created, simply create said folder outside of your `public_html` directory. You should place any file that can be dynamically included in files inside of your `public_html` folder.
 
 # Node.js
 
