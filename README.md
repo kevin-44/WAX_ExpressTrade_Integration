@@ -730,7 +730,7 @@ The only value you need from the response is `api_key` (in case of the above, th
 
 #### Automatically receiving the $0.25 commission per case opened
 
-You will need to link your OPSkins account to your `case-website API key` in order to receive the *$0.25* commission (that is 10% of the base price of a [Skeleton Key](https://opskins.com/?app=1912_1&loc=shop_search&max=2.51&min=2.49&sort=lh&type=key)) per case opened directly into your [USD Wallet](https://opskins.com).
+You will need to link your OPSkins account to your `case-website API key` in order to receive the **$0.25** commission (that is 10% of the base price of a [Skeleton Key](https://opskins.com/?app=1912_1&loc=shop_search&max=2.51&min=2.49&sort=lh&type=key)) per case opened directly into your [USD Wallet](https://opskins.com).
 
 Invoke the [UpdateCommissionSettings](https://github.com/OPSkins/trade-opskins-api/blob/master/ICaseSite/UpdateCommissionSettings.md) endpoint from your SSH client, replacing `Your OPSkins User ID` with your actual ID (you can get your OPSkins User ID on the [WAX ExpressTrade settings page](https://trade.opskins.com/settings)) and `Referral Commission Rate` with a floating point number ranging from `0.00` to `10.00` (`10.00` being every cent of the received commission):
 
