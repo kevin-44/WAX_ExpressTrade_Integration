@@ -618,6 +618,8 @@ All status codes and their titles can be found [here](https://github.com/OPSkins
 
 Sync your clock by executing `sudo apt install ntp -y`.
 
+> **Note**: This is vital, the shown two-factor authentication code may be invalid otherwise.
+
 You can then use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
 
 ```
