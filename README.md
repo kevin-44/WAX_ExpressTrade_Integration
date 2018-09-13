@@ -553,7 +553,7 @@ Create a `.php` file (or download the `blank.php` file in this repository), name
 ?>
 ```
 
-> **Note**: As specified when you configured the name-based virtual hosts (if you did), `index.php` will be rendered when requesting the document root of your domain (e.g. `example.com`).
+> **Note**: `index.php` typically represents the document root of a website.
 
 ## Calling the API
 
