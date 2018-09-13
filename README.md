@@ -58,6 +58,7 @@
 	* [Calling the API](#calling-the-api)
 		* [Additional](#additional)
 			* [Creating a special case-website user](#creating-a-special-case-website-user)
+			* [Automatically receiving the $0.25 commission per case opened](#automatically-receiving-the-025-commission-per-case-opened)
 * [Node.js](#nodejs-1)
 	* [Beginners](#beginners-1)
 		* [Local Environment](#local-environment-1)
@@ -75,6 +76,7 @@
 	* [Calling the API](#calling-the-api-1)
 		* [Additional](#additional-1)
 			* [Creating a special case-website user](#creating-a-special-case-website-user-1)
+			* [Automatically receiving the $0.25 commission per case opened](#automatically-receiving-the-025-commission-per-case-opened-1)
 
 # Overview
 
