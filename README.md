@@ -555,7 +555,7 @@ Create a `.php` file (or download the `blank.php` file in this repository), name
 ?>
 ```
 
-> **Note**: As specified when you configured the name-based virtual hosts (or if you did), your system will look for the file `index.php` when accessing your domain without requesting a specific file (e.g. simply `example.com`).
+> **Note**: As specified when you configured the name-based virtual hosts (or if you did), your system will look for the file `index.php` when requesting the document root of your domain (e.g. `example.com`).
 
 # Node.js
 
