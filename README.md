@@ -609,9 +609,7 @@ $totp = new \OTPHP\TOTP("Your 2FA Secret");
 $code = $totp -> now();
 ```
 
-Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scope(s).
-
-Documentation for OPSkins OAuth can be found [here](https://docs.opskins.com/public/en.html#oauth).
+Use [php-oauth](https://github.com/OPSkins/php-oauth) for endpoints that require OAuth scope(s). Documentation for OPSkins OAuth can be found [here](https://docs.opskins.com/public/en.html#oauth).
 
 # Node.js
 
