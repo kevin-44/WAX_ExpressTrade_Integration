@@ -513,6 +513,10 @@ Simply find the right entry (base your search on the `account` index), make sure
 
 ### Request an API Key
 
+As there are endpoints that require a 2FA code, there also are endpoints that require an API key.
+
+> **Note**: The [ICase](https://github.com/OPSkins/trade-opskins-api/tree/master/ICase)/[ICaseSite](https://github.com/OPSkins/trade-opskins-api/tree/master/ICaseSite) interface requires a completely different API key.
+
 ## Install Dependencies
 
 # Node.js
