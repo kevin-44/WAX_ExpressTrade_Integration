@@ -478,7 +478,7 @@ A `.json` file will begin to download. If you open it you'll see a similar multi
 }
 ```
 
-The only value you need from the `.json` file is `secret` (in case of the example above, that value is `VIYPXSTVYCV6KXF7`) - keep the value in hand as you may need it depending on the features you plan on adding to your website!
+The only value you need from this `.json` file is `secret` (in case of the example above, that value is `CUPQTTSAL5XIDUTS`) - keep the value in hand as you may need it depending on the features you plan on adding to your website!
 
 **(Extra)** If you are unfamiliar with JSON arrays and have more than one account added to the Authenticator extension, you'll see more entires as shown below:
 
