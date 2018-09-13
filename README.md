@@ -696,6 +696,8 @@ After authenticating, the user will be redirected back to your website. Handle t
 
 ### Extra
 
+#### Creating a special case-website user
+
 # Node.js
 
 ## Beginners
@@ -727,3 +729,5 @@ After authenticating, the user will be redirected back to your website. Handle t
 ## Calling the API
 
 ### Extra
+
+#### Creating a special case-website user
