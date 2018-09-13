@@ -659,7 +659,7 @@ Generate a URL and ask the user to authenticate (this will request access for th
 	include_once "../includes/OPSkinsOAuth.php";
 
 	$auth = new OPSkinsOAuth();
-	$client = $auth -> createOAuthClient(); // IOAuth/CreateClient/v1
+	$client = $auth -> createOAuthClient(); // https://docs.opskins.com/public/en.html#IOAuth_CreateClient_v1
 	$redirect_url = $auth -> getAuthUrl($client); // generate an authentication URL
 
 	header("Location: " . $redirect_url); // redirect the user
