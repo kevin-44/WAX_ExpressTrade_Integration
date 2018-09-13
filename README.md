@@ -596,7 +596,7 @@ The `data` parameter in the `ExecuteAPICall` function should be structured diffe
 array("key" => "Your API Key", "sku_filter" => "100,102")
 ```
 
-> **Note**: Your `API key` should be passed as `key` (as shown above). The [API documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) doesn't specify this.
+> **Note**: Your `API key` should be passed as `key` (as shown above). The [API documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) doesn't specifically state this.
 
 All successful API responses have return data within the `response` object. A typical response may look like this:
 
@@ -724,7 +724,7 @@ pt_gift_trades":false,"vcase_restricted":true}}}
 
 The only value you need from the response is `api_key` (in case of the above, that value is `c3ec795f41967f34209437b0005258`).
 
-> **Note**: Your `OPSkins API key`/`case-website API key` should be passed as `key`. The [API documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) doesn't specify this.
+> **Note**: Your `OPSkins API key`/`case-website API key` should be passed as `key`. The [API documentation for WAX ExpressTrade](https://github.com/OPSkins/trade-opskins-api) doesn't specifically state this.
 
 # Node.js
 
