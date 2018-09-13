@@ -580,7 +580,7 @@ All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-ops
 ?>
 ```
 
-However, the `data` parameter in the `ExecuteAPICall` function should be structured differently when making requests to endpoints that use the `POST` method:
+However, the `data` parameter in the `ExecuteAPICall` function should be structured differently when making requests to endpoints that use the `POST` method. Here's an example:
 
 ```
 array(
@@ -590,6 +590,10 @@ array(
 	"affiliate_eth_address" => "Anything, Deprecated",
 	"amount" => 1
 )
+
+or
+
+array("key" => "Your API Key", "steam_id" => "User's Steam ID", "case_id" => 1, "affiliate_eth_address" => "Anything, Deprecated", "amount" => 1)
 ```
 
 # Node.js
