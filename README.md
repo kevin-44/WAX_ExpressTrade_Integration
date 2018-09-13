@@ -451,7 +451,7 @@ You can get your `secret` by clicking on the `Settings` icon located on the top 
 
 <img alt = "Authenticator - Export Backup File Step 3" src = "img/authenticator_export_backup_file_step_3.png">
 
-A `.json` file will begin to download in your browser, if you open it you'll see a similar `json` array as to the one below:
+A `.json` file will begin to download in your browser, if you open it you'll see a similar json array as to the one below:
 
 ```
 {
