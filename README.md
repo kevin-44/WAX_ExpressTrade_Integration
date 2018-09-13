@@ -557,7 +557,7 @@ Create a `.php` file (or download the `blank.php` file in this repository), name
 
 ## Calling the API
 
-All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api) can be called using the same syntax. For instance, this is how you call the `GetItems` endpoint:
+All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api) can be called using the same syntax. For instance, the `GetItems` endpoint can be called as followed:
 
 ```
 <?php
