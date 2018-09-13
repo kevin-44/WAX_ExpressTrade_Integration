@@ -652,7 +652,7 @@ class OPSkinsOAuthSettings {
 }
 ```
 
-Generate a URL and ask the user to authenticate (this will request access for the `identity` scope):
+Generate a URL and ask the user to authenticate (this will request access to the `identity` scope):
 
 ```
 <?php
