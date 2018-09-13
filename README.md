@@ -445,7 +445,7 @@ If the selection of the barcode was successful, a browser alert should prompt st
 
 <img alt = "OPSkins - Enable 2FA Step 6" src = "img/opskins_enable_2fa_step_6.png">
 
-> **Note**: You can alternatively add your account by entering the secret shown on the second modal on Authenticator (this can be done by clicking on the `Edit` icon, it's located on the top far right corner). **This secret is the same as the one you need to generate a valid two-factor authentication code programmatically.**
+> **Note**: You can alternatively add your account by entering the secret shown on the second modal on Authenticator (this can be done by clicking on the `Edit` icon - it's located on the top far right corner). **This secret is the same as the one you need to generate a valid two-factor authentication code programmatically.**
 
 On Authenticator, click on the `Settings` icon located on the top left corner and hit `Sync Clock with Google`:
 
