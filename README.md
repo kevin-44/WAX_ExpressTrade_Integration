@@ -539,7 +539,7 @@ As stated in the [overview](#overview) at the beginning of the tutorial, the fir
 
 [Download php-oauth](https://github.com/OPSkins/php-oauth), extract the compressed archive and place `OPSkinsOAuth.php` in your `includes` directory:
 
-> **Note**: If you skipped the part of the tutorial where the `includes` folder was created, simply create the folder outside of your `public_html` directory. You should place any file that can be dynamically included from your `public_html` directory inside your `includes` folder.
+> **Note**: If you skipped the part of the tutorial where the `includes` folder was created, simply create the folder outside of your `public_html` directory. You should place any file that can be dynamically included from your `public_html` directory inside the `includes` folder.
 
 > **Note**: If you are integrating the WAX ExpressTrade API into your website directly into a production environment and you didn't install an SSL certificate, you will need an **FTP client** ([FileZilla](https://filezilla-project.org) is highly recommended) to upload files to your VPS (click [here](#if-you-didnt-purchase-an-ssl-certificate-click-here-to-continue) if you're having trouble connecting).
 
