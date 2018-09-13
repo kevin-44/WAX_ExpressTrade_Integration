@@ -677,7 +677,7 @@ After authentication, the user will be redirected back to your website. Handle t
 ```
 <?php
 	$auth = new OPSkinsOAuth();
-	$client = $auth -> verifyReturn($_GET['state'], $_GET['code']); // verify the data passed though the GET method
+	$client = $auth -> verifyReturn($_GET['state'], $_GET['code']); // validate the returned data
 	$auth -> getBearerToken($client); // token to access the OPSkins API on a user's behalf
 
 	var_dump($auth -> testAuthed($client)); // output the response for debugging purposes
