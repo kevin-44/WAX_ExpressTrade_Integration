@@ -57,7 +57,7 @@
 	* [Install Dependencies](#install-dependencies-1)
 	* [Calling the API](#calling-the-api)
 		* [Extra](#extra)
-		* [Creating a special case-website user](#creating-a-special-case-website-user)
+			* [Creating a special case-website user](#creating-a-special-case-website-user)
 * [Node.js](#nodejs-1)
 	* [Beginners](#beginners-1)
 		* [Local Environment](#local-environment-1)
@@ -74,7 +74,7 @@
 	* [Install Dependencies](#install-dependencies-3)
 	* [Calling the API](#calling-the-api-1)
 		* [Extra](#extra-1)
-		* [Creating a special case-website user](#creating-a-special-case-website-user-1)
+			* [Creating a special case-website user](#creating-a-special-case-website-user-1)
 
 # Overview
 
