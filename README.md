@@ -437,13 +437,13 @@ If the selection of the barcode was successful, a browser alert should prompt st
 
 <img alt = "OPSkins - Enable 2FA Step 6" src = "img/opskins_enable_2fa_step_6.png">
 
-> **Note**: You can alternatively enter the secret shown on the second modal on Authenticator by clicking on the top far right icon.
+> **Note**: You can alternatively enter the secret shown on the second modal on Authenticator by clicking on the top far right icon. This secret is different from the one you need!
 
 Enter the current valid 2FA code shown on Authenticator:
 
 <img alt = "OPSkins - Enable 2FA Step 7" src = "img/opskins_enable_2fa_step_7.png">
 
-On the Authenticator extension, click on the `Settings` icon located on the top left corner, hit the `Export / Import` option, and then press the `Download Backup File` button:
+You can get your `secret` by clicking on the `Settings` icon located on the top left corner, hitting the `Export / Import` option, and then pressing the `Download Backup File` button:
 
 <img alt = "Authenticator - Export Backup File Step 1" src = "img/authenticator_export_backup_file_step_1.png">
 
