@@ -616,7 +616,7 @@ All status codes and their titles can be found [here](https://github.com/OPSkins
 
 **Generating a valid two-factor authentication code programmatically**
 
-Sync your clock with an **NTP server** (this will request the current time from a server and use it to set its own clock): `sudo apt install ntp -y`
+Sync your clock with an **NTP server** (this will request the current time from a server and use it to set its clock): `sudo apt install ntp -y`
 
 > **Note**: This is vital, the shown two-factor authentication code may be invalid otherwise.
 
