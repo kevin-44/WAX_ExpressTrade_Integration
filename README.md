@@ -557,13 +557,13 @@ Create a `.php` file (or download the `blank.php` file in this repository), name
 
 ## Calling the API
 
-All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api) can be called using the same function and syntax. For instance, the `GetItems` endpoint can be called as followed:
+All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api) can be called using the same syntax. For instance, the `GetItems` endpoint can be called as followed:
 
 ```
 <?php
 	include_once "../includes/execute_api_call.php";
 
-	$response = ExecuteAPICall("GET", "IItem/GetItems/v1", array("key=f2657a4262f7d0cb2sc8486a0td12b0&sku_filter=100,102")); // method, endpoint, data
+	$response = ExecuteAPICall("GET", "IItem/GetItems/v1", array("key=Your API Key&sku_filter=100,102")); // method, endpoint, data
 
 	if($response != NULL) // check if the WAX ExpressTrade API responded (it may be offline or under maintenance)
 	{
@@ -576,6 +576,18 @@ All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-ops
 		echo "The WAX ExpressTrade didn't respond, it may be offline or under maintenance";
 	}
 ?>
+```
+
+However, the `data` parameter in the `ExecuteAPICall` function is structured differently when making requests to endpoints that use the `POST` method:
+
+```
+	array(
+		"key" => "Your API Key",
+		"steam_id" => "User's Steam ID",
+		"case_id" => 1,
+		"affiliate_eth_address" => "Anything, Deprecated",
+		"amount" => 1
+	)
 ```
 
 # Node.js
