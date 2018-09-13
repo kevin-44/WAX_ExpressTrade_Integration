@@ -545,7 +545,7 @@ Download `execute_api_call.php` (it can be downloaded from this repository) and 
 
 > **Note**: If you are integrating the WAX ExpressTrade API into your website directly into a production environment and you didn't install an SSL certificate, you will need an **FTP client** ([FileZilla](https://filezilla-project.org) is highly recommended) to upload files to your VPS (click [here](#if-you-didnt-purchase-an-ssl-certificate-click-here-to-continue) and read the part addressing the use of an FTP client if you're having trouble connecting). If your website is hosted with a dedicated web hosting provider, you can use their web-based FTP client instead.
 
-Create a `.php` file (or download the `blank.php` file in this repository), name it `index.php`, place it inside of your `public_html` directory, open the file with a text editor ([Sublime Text](https://www.sublimetext.com/3) is recommended) and include `execute_api_call.php`. Your `index.php` file should contain the following:
+Create a `.php` file, name it `index.php`, place it inside of your `public_html` directory, open the file with a text editor ([Sublime Text](https://www.sublimetext.com/3) is recommended) and include `execute_api_call.php` (or you can download the `index.php` file in this repository and simply place it inside of your `public_html` folder). Your `index.php` file should contain the following:
 
 ```
 <?php
