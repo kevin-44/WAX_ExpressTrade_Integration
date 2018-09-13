@@ -642,7 +642,7 @@ class OPSkinsOAuthSettings {
 	static $opskinsAPIKey = 'Your API Key';
 
 	static $opskinsOAuthURL = 'https://oauth.opskins.com/'; // do not change this
-	static $opskinsOAuthReturnUri = 'http://localhost/'; // localhost for a local environment, the IP address of your VPS or your domain otherwise
+	static $opskinsOAuthReturnUri = 'http://localhost/'; // localhost for a local environment, the IP address of your VPS or your domain for a production environment (preferably your domain)
 	static $siteName = 'Your Website Name';
 
 	static $stateMappingFile = '/path/to/file/state_map'; // do not change this, or replace file the storage with an MySQL database (experienced users only)
