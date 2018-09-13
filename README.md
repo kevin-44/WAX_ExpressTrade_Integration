@@ -53,6 +53,7 @@
 	* [Set up an OPSkins Account](#set-up-an-opskins-account)
 		* [Create an Account](#create-an-account)
 		* [Enable 2FA (Two-Factor Authentication)](#enable-2fa-two-factor-authentication)
+		* [Request an API Key](#request-an-api-key)
 	* [Install Dependencies](#install-dependencies-1)
 * [Node.js](#nodejs-1)
 	* [Beginners](#beginners-1)
@@ -66,6 +67,7 @@
 	* [Set up an OPSkins Account](#set-up-an-opskins-account-1)
 		* [Create an Account](#create-an-account-1)
 		* [Enable 2FA (Two-Factor Authentication)](#enable-2fa-two-factor-authentication-1)
+		* [Request an API Key](#request-an-api-key-1)
 	* [Install Dependencies](#install-dependencies-3)
 
 # Overview
@@ -509,6 +511,8 @@ The only value you need from this `.json` file is `secret` (in case of the examp
 
 Simply find the right entry (base your search on the `account` index), make sure the `issuer` is `OPSkins` and get your `secret` from the array.
 
+### Request an API Key
+
 ## Install Dependencies
 
 # Node.js
@@ -534,5 +538,7 @@ Simply find the right entry (base your search on the `account` index), make sure
 ### Create an Account
 
 ### Enable 2FA (Two-Factor Authentication)
+
+### Request an API Key
 
 ## Install Dependencies
