@@ -700,7 +700,7 @@ After authenticating, the user will be redirected back to your website. Handle t
 
 #### Creating a special case-website user
 
-You will need an API key to invoke the [ICase](https://github.com/OPSkins/trade-opskins-api/tree/master/ICase)/[ICaseSite](https://github.com/OPSkins/trade-opskins-api/tree/master/ICaseSite) interface.
+You will need an API key to invoke endpoints of the [ICase](https://github.com/OPSkins/trade-opskins-api/tree/master/ICase)/[ICaseSite](https://github.com/OPSkins/trade-opskins-api/tree/master/ICaseSite) interface.
 
 > **Note**: This API key is different from your OPSkins API key.
 
