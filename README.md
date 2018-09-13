@@ -645,8 +645,8 @@ class OPSkinsOAuthSettings {
 	static $opskinsOAuthReturnUri = 'http://localhost/'; // localhost for a local environment, the IP address of your VPS or your domain otherwise
 	static $siteName = 'Your Website Name';
 
-	static $stateMappingFile = '/path/to/file/state_map'; // do not change this, or replace file storage with an MySQL database (experienced users only)
-	static $clientsFileLocation = '/path/to/file/clients_file'; // do not change this, or replace file storage with an MySQL database (experienced users only)
+	static $stateMappingFile = '/path/to/file/state_map'; // do not change this, or replace file the storage with an MySQL database (experienced users only)
+	static $clientsFileLocation = '/path/to/file/clients_file'; // do not change this, or replace the file storage with an MySQL database (experienced users only)
 }
 ```
 
