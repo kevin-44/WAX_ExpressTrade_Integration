@@ -606,6 +606,8 @@ All *successful* API responses have return data within the `response` object. A 
 }
 ```
 
+> **Note**: If a response is paginated, the pagination details (`current_page` and `total_pages`) occur at the top-level of the object, not inside the `response` body.
+
 ---
 
 Sync your clock by executing `sudo apt install ntp -y`. You can then use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
