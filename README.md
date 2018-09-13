@@ -449,7 +449,7 @@ On Authenticator, click on the `Settings` icon located on the top left corner an
 
 > **Note**: This is a vital step, the shown two-factor authentication codes may be invalid otherwise.
 
-Enter the current valid 2FA code shown on Authenticator:
+Enter the current valid two-factor authentication code shown on Authenticator:
 
 <img alt = "OPSkins - Enable 2FA Step 10" src = "img/opskins_enable_2fa_step_10.png">
 
