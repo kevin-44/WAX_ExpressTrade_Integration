@@ -602,7 +602,7 @@ or
 array("key" => "Your API Key", "steam_id" => "User's Steam ID", "case_id" => 1, "affiliate_eth_address" => "Anything, Deprecated", "amount" => 1)
 ```
 
-Use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically (you can sync your clock by executing `sudo apt install ntp -y`):
+Use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically (you should sync your clock by executing `sudo apt install ntp -y`):
 
 ```
 $totp = new \OTPHP\TOTP("Your 2FA Secret");
