@@ -563,7 +563,7 @@ Create a `.php` file (or download the `blank.php` file in this repository), name
 
 All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api) can be called using the same syntax. For instance, this is how you call the `GetItems` endpoint:
 
-^^^
+```
 <?php
 	include_once "../includes/execute_api_call.php";
 
@@ -571,16 +571,16 @@ All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-ops
 
 	if($response != NULL) // check if the WAX ExpressTrade API responded (it may be offline or under maintenance)
 	{
-		$json = json_decode($response, true); // decode the response as an array
+		$json = json_decode($response, true); // return an array to access the response
 
-		var_dump($json); // output the decoded response
+		var_dump($json); // output the response
 	}
 	else
 	{
 		echo "The WAX ExpressTrade didn't respond";
 	}
 ?>
-^^^
+```
 
 # Node.js
 
