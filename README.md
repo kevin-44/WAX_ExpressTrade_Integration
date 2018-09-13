@@ -738,7 +738,7 @@ Invoke the [UpdateCommissionSettings](https://github.com/OPSkins/trade-opskins-a
 curl -d '{"network_id":1,"network_user_id":Your OPSkins User ID,"referral_commission_rate":Referral Commission Rate}' -H "Content-Type: application/json" -X POST https://api-trade.opskins.com/ICaseSite/UpdateCommissionSettings/v1/
 ```
 
-> **Note**: `Referral Commission Rate` corresponds to the percentage of how much of the received commission will be shared to users participating in a custom referral program you can add to your website.
+> **Note**: `Referral Commission Rate` corresponds to the percentage of how much of the received commission will be shared to users participating in a custom referral program you can add to your website. **This only takes effect when `referral_ui` is assigned a value when invoking the [SendKeyRequest](https://github.com/OPSkins/trade-opskins-api/blob/master/ICaseSite/SendKeyRequest.md) endpoint - in such case, the whole 10% will be added to your OPSkins account!**
 
 # Node.js
 
