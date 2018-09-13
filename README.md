@@ -622,7 +622,7 @@ Sync your clock with an **NTP server** (this will request the current time from 
 
 > **Note**: This step is vital, the generated two-factor authentication code may be invalid otherwise.
 
-> **Note**: If you are on Windows, click [here](https://developers.google.com/time/guides) for information on how to sync your clock with Google's Public NTP server (here's a [screenshot](https://github.com/Kevin-Reinke/WAX_ExpressTrade_Integration/blob/master/img/windows_sync_clock_with_google.png) for reference). If you're unable to sync your clock, you can always input your 2FA code manually for development purposes.
+> **Note**: If you are on Windows, click [here](https://developers.google.com/time/guides) for information on how to sync your clock with Google's Public NTP server (here's a [screenshot](https://github.com/Kevin-Reinke/WAX_ExpressTrade_Integration/blob/master/img/windows_sync_clock_with_google.png) for reference). If you're unable to sync your clock, you can always input your 2FA code manually solely for development purposes.
 
 You can then use [OTPHP](https://github.com/lelag/otphp) (or any other similar extension) to generate a valid two-factor authentication code programmatically:
 
