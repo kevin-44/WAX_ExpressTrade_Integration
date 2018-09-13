@@ -523,6 +523,10 @@ Go to your [OPSkins advanced account options page](https://opskins.com/?loc=stor
 
 <img alt = "OPSkins - Request API Key Step 1" src = "img/opskins_request_api_key_step_1.png">
 
+A modal will prompt, enter your 2FA code:
+
+<img alt = "OPSkins - Request API Key Step 2" src = "img/opskins_request_api_key_step_2.png">
+
 ## Install Dependencies
 
 # Node.js
