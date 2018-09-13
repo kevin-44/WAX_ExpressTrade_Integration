@@ -539,7 +539,7 @@ You will then be issued an API key - along with your 2FA `secret`, keep it in ha
 
 As stated in the [overview](#overview) at the beginning of the tutorial, the first extension under `Recommended` will be used. You are free to use any [other extension](#extensions) however!
 
-Download `execute_api_call.php` (it can be downloaded from this repository) and place it inside your `includes` directory:
+Download `execute_api_call.php` (it can be downloaded from this repository) and place it inside your `includes` directory.
 
 > **Note**: If you skipped the part of the tutorial where the `includes` folder was created, simply create the folder outside of your `public_html` directory. You should place any file that can be dynamically included from your `public_html` directory inside the `includes` folder.
 
