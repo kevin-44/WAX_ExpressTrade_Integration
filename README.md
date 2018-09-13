@@ -409,7 +409,7 @@ Finally, restart Apache for the changes to take effect:
 
 An [OPSkins](https://opskins.com) account is required for some endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api); therefore, it is recommended that you create one!
 
-> **Note**: Although you can invoke the WAX ExpressTrade API without an OPSkins account, you are limiting the number of endpoints available to you. Features such as automatically receiving the **$0.25** commission (this is 10% of the base price of a [Skeleton Key](https://opskins.com/?app=1912_1&loc=shop_search&max=2.51&min=2.49&sort=lh&type=key)) per case opened from the [ICase](https://github.com/OPSkins/trade-opskins-api/tree/master/ICase)/[ICaseSite](https://github.com/OPSkins/trade-opskins-api/tree/master/ICaseSite) interface is also unavailable without an OPSkins account.
+> **Note**: Although you can invoke the WAX ExpressTrade API without an OPSkins account, you are limiting the number of endpoints available to you. Features such as automatically receiving the **$0.25** commission (that is 10% of the base price of a [Skeleton Key](https://opskins.com/?app=1912_1&loc=shop_search&max=2.51&min=2.49&sort=lh&type=key)) per case opened from the [ICase](https://github.com/OPSkins/trade-opskins-api/tree/master/ICase)/[ICaseSite](https://github.com/OPSkins/trade-opskins-api/tree/master/ICaseSite) interface is also unavailable without an OPSkins account.
 
 ### Create an Account
 
@@ -730,7 +730,7 @@ The only value you need from the response is `api_key` (in case of the above, th
 
 #### Automatically receiving the $0.25 commission per case opened
 
-You will need to link your OPSkins account to your `case-website API key` in order to receive the 10% commission directly into your [USD Wallet](https://opskins.com).
+You will need to link your OPSkins account to your `case-website API key` in order to receive the *$0.25* commission (that is 10% of the base price of a [Skeleton Key](https://opskins.com/?app=1912_1&loc=shop_search&max=2.51&min=2.49&sort=lh&type=key)) per case opened directly into your [USD Wallet](https://opskins.com).
 
 Invoke the [UpdateCommissionSettings](https://github.com/OPSkins/trade-opskins-api/blob/master/ICaseSite/UpdateCommissionSettings.md) endpoint from your SSH client, replacing `Your OPSkins User ID` with your actual ID (you can get your OPSkins User ID on the [WAX ExpressTrade settings page](https://trade.opskins.com/settings)) and `Referral Commission Rate` with a floating point number ranging from `0.00` to `10.00` (`10.00` being every cent of the received commission):
 
