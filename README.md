@@ -620,7 +620,7 @@ Sync your clock with an **NTP server** (this will request the current time from 
 
 > **Note**: This step is vital, the generated two-factor authentication code may be invalid otherwise.
 
-You can then use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
+You can then use [OTPHP](https://github.com/lelag/otphp) (or any other similar extension) to generate a valid two-factor authentication code programmatically:
 
 ```
 include_once "../includes/otphp/lib/otphp.php"; // remember to include/load extensions (note that this should only be done once per extension in a file - preferably at the beginning)
