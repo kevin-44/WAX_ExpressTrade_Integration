@@ -640,7 +640,7 @@ class OPSkinsOAuthSettings {
 }
 ```
 
-Generate a URL and ask the user to authenticate (the `identity` scope is set as default):
+Generate a URL and ask the user to authenticate (this will request access for the `identity` scope):
 
 ```
 <?php
@@ -654,7 +654,7 @@ Generate a URL and ask the user to authenticate (the `identity` scope is set as 
 ?>
 ```
 
-Request access to specific scopes by modifying `$redirect_url = $auth -> getAuthUrl($client);` (list of scopes can be found [here](https://docs.opskins.com/public/en.html#scopes)):
+Request access for specific scopes by modifying `$redirect_url = $auth -> getAuthUrl($client);` (list of scopes can be found [here](https://docs.opskins.com/public/en.html#scopes)):
 
 ```
 $redirect_url = $auth -> getAuthUrl($client, ["identity", "trades"]);
