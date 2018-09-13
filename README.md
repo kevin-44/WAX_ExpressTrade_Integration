@@ -598,10 +598,8 @@ All *successful* API responses have return data within the `response` object. A 
 {
 	"status": 1,
 	"time": 1528334546,
-	"response":
-	{
-		"offer":
-		{
+	"response": {
+		"offer": {
 			"some_data": "here"
 		}
 	}
