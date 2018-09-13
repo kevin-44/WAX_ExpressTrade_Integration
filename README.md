@@ -602,7 +602,7 @@ or
 array("key" => "Your API Key", "steam_id" => "User's Steam ID", "case_id" => 1, "affiliate_eth_address" => "Anything, Deprecated", "amount" => 1)
 ```
 
-Use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically:
+Use [OTPHP](https://github.com/lelag/otphp) to generate a valid two-factor authentication code programmatically, replacing `Your 2FA Secret` with your 2FA `secret`:
 
 ```
 $totp = new \OTPHP\TOTP("Your 2FA Secret");
