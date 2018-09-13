@@ -578,7 +578,7 @@ All endpoints of the [WAX ExpressTrade API](https://github.com/OPSkins/trade-ops
 ?>
 ```
 
-However, the `data` parameter in the `ExecuteAPICall` function is structured differently when making requests to endpoints that use the `POST` method:
+However, the `data` parameter in the `ExecuteAPICall` function should be structured differently when making requests to endpoints that use the `POST` method:
 
 ```
 array(
