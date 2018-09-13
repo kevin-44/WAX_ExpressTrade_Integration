@@ -74,7 +74,7 @@ There is no official **SDK** (*Software Development Kit*) for neither PHP nor No
 
 With the integration of the WAX ExpressTrade API, you can create a VGO case opening website (such as [UnlockVGO](https://www.unlockvgo.com)) and earn **$0.25** per case opened, set up a trading website where you can profit from each trade, etc.
 
-Throughout this tutorial, there will be several **notes** to give you a brief insight of specific recommendations/topics.
+Throughout this tutorial, there will be several `notes` to give you a brief insight of specific recommendations/topics.
 
 ## Extensions
 
