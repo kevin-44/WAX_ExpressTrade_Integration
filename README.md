@@ -220,7 +220,7 @@ Any website you create should be placed in `/var/www/html`. You can access one o
 
 #### Register a Domain & Configure Name-based Virtual Hosts
 
-Your website (or at least the `Apache2 Ubuntu Default Page`) should be accessible at this point. It's recommended that you assign a domain to your website if you plan on having visitors from all around the world; however, it isn't technically necessary - your visitors would just have trouble remembering your VPS' IP address! If you do not wish to assign a domain to your website, skip to the [next step](#install-dependencies-2).
+Your website (or at least the `Apache2 Ubuntu Default Page`) should be accessible at this point. It's recommended that you assign a domain to your website if you plan on having visitors from all around the world; however, it isn't technically necessary - your visitors would just have trouble remembering your VPS' IP address! If you do not wish to assign a domain to your website, skip to the [next step](#install-dependencies-1).
 
 ---
 
@@ -357,7 +357,7 @@ Finally, restart Apache for the changes to take effect:
 
 ---
 
-#### If you purchased an SSL certificate, click [here](#install-dependencies-2) to continue.
+#### If you purchased an SSL certificate, click [here](#install-dependencies-1) to continue.
 
 Configure the name-based virtual hosts so that your system knows what to do when someone visits your domain! For that:
 
