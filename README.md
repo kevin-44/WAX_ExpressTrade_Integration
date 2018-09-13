@@ -517,6 +517,12 @@ As there are endpoints that require a 2FA code, there also are endpoints that re
 
 > **Note**: The [ICase](https://github.com/OPSkins/trade-opskins-api/tree/master/ICase)/[ICaseSite](https://github.com/OPSkins/trade-opskins-api/tree/master/ICaseSite) interface requires a completely different API key. That API key can be obtained by creating a special case-website user with the [CreateVCaseUser](https://github.com/OPSkins/trade-opskins-api/blob/master/IUser/CreateVCaseUser.md) endpoint.
 
+---
+
+Go to your [OPSkins advanced account options page](https://opskins.com/?loc=store_account#collapseAA), tick the `I have read and agree to the API Terms of Use` checkbox and hit the `Request API Key` button:
+
+<img alt = "OPSkins - Request API Key Step 1" src = "img/opskins_request_api_key_step_1.png">
+
 ## Install Dependencies
 
 # Node.js
