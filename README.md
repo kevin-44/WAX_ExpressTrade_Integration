@@ -559,7 +559,7 @@ Create a `.php` file (or download the `blank.php` file in this repository), name
 
 Calling the [WAX ExpressTrade API](https://github.com/OPSkins/trade-opskins-api) implies that you either send a [GET](https://www.w3schools.com/tags/ref_httpmethods.asp) or [POST](https://www.w3schools.com/tags/ref_httpmethods.asp) request to `https://api-trade.opskins.com`, this will tell the API to perform an action on its end and return a response to the requester.
 
-> **Note**: Calls to `api-trade.opskins.com` should always be executed over the `HTTPS` protocol; otherwise, your calls will be redirected and you will receive an erroneous response. `https://api-trade.opskins.com` is the default value for `$url` in the `ExecuteAPICall` function.
+> **Note**: Calls to `api-trade.opskins.com` should always be executed over the `HTTPS` protocol; otherwise, your calls will be redirected and you will receive an erroneous response. `https://api-trade.opskins.com` is the default value for the `$url` parameter in the `ExecuteAPICall` function.
 
 ---
 
