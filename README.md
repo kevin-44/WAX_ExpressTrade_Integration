@@ -437,7 +437,7 @@ If the selection of the barcode was successful, a browser alert should prompt st
 
 <img alt = "OPSkins - Enable 2FA Step 6" src = "img/opskins_enable_2fa_step_6.png">
 
-> **Note**: You can alternatively add your account by entering the secret shown on the second modal on Authenticator (this can be done by clicking on the `Edit` icon, it's located on the top far right corner). **This secret is different from the one you need to generate a valid two-factor authentication code programmatically!**
+> **Note**: You can alternatively add your account by entering the secret shown on the second modal on Authenticator (this can be done by clicking on the `Edit` icon, it's located on the top far right corner). **This secret is different from the one you need to generate a valid two-factor authentication code programmatically.**
 
 Enter the current valid 2FA code shown on Authenticator:
 
@@ -451,7 +451,7 @@ You can get your `secret` by clicking on the `Settings` icon located on the top 
 
 <img alt = "Authenticator - Export Backup File Step 3" src = "img/authenticator_export_backup_file_step_3.png">
 
-A `.json` file will start to download, open it and you'll see a similar array as to the one below:
+A `.json` file will begin to download in your browser, if you open it you'll see a similar `json` array as to the one below:
 
 ```
 {
